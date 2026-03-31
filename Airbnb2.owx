@@ -1,0 +1,811 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/steven/ontologies/2026/2/airbnb"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/steven/ontologies/2026/2/airbnb">
+    <Prefix name="" IRI="http://www.semanticweb.org/steven/ontologies/2026/2/airbnb/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#AlojamientoHabitacion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PuntoInteres"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#AlojamientoCompleto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#Amenidad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#Apartamento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#Casa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#HabitacionCompartida"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#HabitacionPrivada"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#PerfilHuesped"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#Politica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#Propiedad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#PropositoViaje"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#Villa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#ZonaGeografica"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#compatibleCon"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tienePolitica"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tienePuntoInteres"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ubicadaEn"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#areaTotal"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#calificacionPromedio"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#capacidadDormitorio"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#capacidadEventos"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#capacidadMaxima"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#categoriaAmenidad"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ciudad"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#costoAdicional"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#densidadUrbana"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#descripcionPropiedad"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#dimensionesHabitacion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#disponibilidad"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#distanciaMetros"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#duracionEstadia"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#edadMinimaHuesped"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#fechaEntradaDisponible"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#fechaSalidaDisponible"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#maximoNoches"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#minimoNoches"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#modalidadTrabajo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nombreAmenidad"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nombrePropiedad"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nombrePunto"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nombreZona"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#numeroAdultos"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#numeroBanos"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#numeroBanosCompartidos"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#numeroDormitorios"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#numeroHabitacion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#numeroMascotas"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#numeroNinos"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#numeroPiso"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#numeroPlantas"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#pais"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#precioNoche"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#presupuestoNoche"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#reglaCigarrillos"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#reglaMascotas"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#requiereReserva"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#seguridadEdificio"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tieneAsensor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tieneJardin"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tipoAcceso"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tipoBano"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tipoCama"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tipoCancelacion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tipoEspacioExterior"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tipoEstacionamiento"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tipoPropositoViaje"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tipoPunto"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tipoViajero"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tipoZona"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#AlojamientoHabitacion"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#Propiedad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#AlojamientoCompleto"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#Propiedad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#Apartamento"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#AlojamientoCompleto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#Casa"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#AlojamientoCompleto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#HabitacionCompartida"/>
+        <Class IRI="#AlojamientoHabitacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#HabitacionPrivada"/>
+        <Class IRI="#AlojamientoHabitacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#Villa"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#AlojamientoCompleto"/>
+    </SubClassOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#compatibleCon"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#Propiedad"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#Propiedad"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tienePolitica"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#Propiedad"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tienePuntoInteres"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#ZonaGeografica"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ubicadaEn"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#Propiedad"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#compatibleCon"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#PerfilHuesped"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#Amenidad"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tienePolitica"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#Politica"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tienePuntoInteres"/>
+        <Class IRI="#PuntoInteres"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ubicadaEn"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#ZonaGeografica"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#areaTotal"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#AlojamientoCompleto"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#calificacionPromedio"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#Propiedad"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#capacidadDormitorio"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#HabitacionCompartida"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#capacidadEventos"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#Villa"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#capacidadMaxima"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#Propiedad"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#categoriaAmenidad"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#Amenidad"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ciudad"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#ZonaGeografica"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#costoAdicional"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#Amenidad"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#densidadUrbana"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#ZonaGeografica"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#descripcionPropiedad"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#Propiedad"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#dimensionesHabitacion"/>
+        <Class IRI="#AlojamientoHabitacion"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#disponibilidad"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#Amenidad"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#distanciaMetros"/>
+        <Class IRI="#PuntoInteres"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#duracionEstadia"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#PropositoViaje"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#edadMinimaHuesped"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#Politica"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#fechaEntradaDisponible"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#Propiedad"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#fechaSalidaDisponible"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#Propiedad"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#maximoNoches"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#Politica"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#minimoNoches"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#Politica"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#modalidadTrabajo"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#PropositoViaje"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nombreAmenidad"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#Amenidad"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nombrePropiedad"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#Propiedad"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nombrePunto"/>
+        <Class IRI="#PuntoInteres"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nombreZona"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#ZonaGeografica"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#numeroAdultos"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#PerfilHuesped"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#numeroBanos"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#Propiedad"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#numeroBanosCompartidos"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#HabitacionCompartida"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#numeroDormitorios"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#Propiedad"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#numeroHabitacion"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#Propiedad"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#numeroMascotas"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#PerfilHuesped"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#numeroNinos"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#PerfilHuesped"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#numeroPiso"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#Propiedad"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#numeroPlantas"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#Casa"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#pais"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#ZonaGeografica"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#precioNoche"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#Propiedad"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#presupuestoNoche"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#PerfilHuesped"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#reglaCigarrillos"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#Politica"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#reglaMascotas"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#Politica"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#requiereReserva"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#Amenidad"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#seguridadEdificio"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#Apartamento"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tieneAsensor"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#Apartamento"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tieneJardin"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#Casa"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tipoAcceso"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#Propiedad"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tipoBano"/>
+        <Class IRI="#AlojamientoHabitacion"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tipoCama"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#HabitacionPrivada"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tipoCancelacion"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#Politica"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tipoEspacioExterior"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#AlojamientoCompleto"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tipoEstacionamiento"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#AlojamientoCompleto"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tipoPropositoViaje"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#PropositoViaje"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tipoPunto"/>
+        <Class IRI="#PuntoInteres"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tipoViajero"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#PerfilHuesped"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tipoZona"/>
+        <Class IRI="http://www.semanticweb.org/steven/ontologies/2026/2/untitled-ontology-7#ZonaGeografica"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#areaTotal"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#calificacionPromedio"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#capacidadDormitorio"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#capacidadEventos"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#capacidadMaxima"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#categoriaAmenidad"/>
+        <DataOneOf>
+            <Literal>Accesibilidad</Literal>
+            <Literal>Alimentacion</Literal>
+            <Literal>Cocina</Literal>
+            <Literal>Conectividad</Literal>
+            <Literal>Confort</Literal>
+            <Literal>Recreativa</Literal>
+            <Literal>Seguridad</Literal>
+            <Literal>Servicio</Literal>
+            <Literal>TrabajoRemoto</Literal>
+            <Literal>Transporte</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ciudad"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#costoAdicional"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#densidadUrbana"/>
+        <DataOneOf>
+            <Literal>Alta</Literal>
+            <Literal>Baja</Literal>
+            <Literal>Media</Literal>
+            <Literal>MuyAlta</Literal>
+            <Literal>Rural</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#descripcionPropiedad"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#dimensionesHabitacion"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#disponibilidad"/>
+        <DataOneOf>
+            <Literal>BajoPedido</Literal>
+            <Literal>Estacional</Literal>
+            <Literal>Permanente</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#distanciaMetros"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#duracionEstadia"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#edadMinimaHuesped"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#fechaEntradaDisponible"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#fechaSalidaDisponible"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#maximoNoches"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#minimoNoches"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#modalidadTrabajo"/>
+        <DataOneOf>
+            <Literal>Hibrido</Literal>
+            <Literal>NoAplica</Literal>
+            <Literal>Presencial</Literal>
+            <Literal>Remoto</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nombreAmenidad"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nombrePropiedad"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nombrePunto"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nombreZona"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#numeroAdultos"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#numeroBanos"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#numeroBanosCompartidos"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#numeroDormitorios"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#numeroHabitacion"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#numeroMascotas"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#numeroNinos"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#numeroPiso"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#numeroPlantas"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#pais"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#precioNoche"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#presupuestoNoche"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#reglaCigarrillos"/>
+        <DataOneOf>
+            <Literal>Permitido</Literal>
+            <Literal>Prohibido</Literal>
+            <Literal>SoloExterior</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#reglaMascotas"/>
+        <DataOneOf>
+            <Literal>Permitido</Literal>
+            <Literal>Prohibido</Literal>
+            <Literal>SoloExterior</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#requiereReserva"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#seguridadEdificio"/>
+        <DataOneOf>
+            <Literal>Intercomunicador</Literal>
+            <Literal>Ninguna</Literal>
+            <Literal>SoloLlave</Literal>
+            <Literal>Vigilancia24h</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tieneAsensor"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tieneJardin"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tipoAcceso"/>
+        <DataOneOf>
+            <Literal>CodigoNumerico</Literal>
+            <Literal>LlaveElectronica</Literal>
+            <Literal>LlaveTradicional</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tipoBano"/>
+        <DataOneOf>
+            <Literal>Compartido</Literal>
+            <Literal>EnSuite</Literal>
+            <Literal>Externo</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tipoCama"/>
+        <DataOneOf>
+            <Literal>Doble</Literal>
+            <Literal>Individual</Literal>
+            <Literal>King</Literal>
+            <Literal>Queen</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tipoCancelacion"/>
+        <DataOneOf>
+            <Literal>Estricta</Literal>
+            <Literal>Flexible</Literal>
+            <Literal>Moderada</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tipoEspacioExterior"/>
+        <DataOneOf>
+            <Literal>Azotea</Literal>
+            <Literal>Balcon</Literal>
+            <Literal>Jardin</Literal>
+            <Literal>NoDisponible</Literal>
+            <Literal>Patio</Literal>
+            <Literal>Terraza</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tipoEstacionamiento"/>
+        <DataOneOf>
+            <Literal>Calle</Literal>
+            <Literal>GarajeMultiple</Literal>
+            <Literal>GarajePrivado</Literal>
+            <Literal>NoDisponible</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tipoPropositoViaje"/>
+        <DataOneOf>
+            <Literal>Estudios</Literal>
+            <Literal>EventoEspecial</Literal>
+            <Literal>Profesional</Literal>
+            <Literal>Reubicacion</Literal>
+            <Literal>Salud</Literal>
+            <Literal>Vacacional</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tipoPunto"/>
+        <DataOneOf>
+            <Literal>Comercio</Literal>
+            <Literal>Educacion</Literal>
+            <Literal>Ocio</Literal>
+            <Literal>Salud</Literal>
+            <Literal>Transporte</Literal>
+            <Literal>Turismo</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tipoViajero"/>
+        <DataOneOf>
+            <Literal>Familia</Literal>
+            <Literal>GrupoAmigos</Literal>
+            <Literal>GrupoEstudiantil</Literal>
+            <Literal>Individual</Literal>
+            <Literal>Negocios</Literal>
+            <Literal>Pareja</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tipoZona"/>
+        <DataOneOf>
+            <Literal>Costera</Literal>
+            <Literal>Montana</Literal>
+            <Literal>Rural</Literal>
+            <Literal>Urbana</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
