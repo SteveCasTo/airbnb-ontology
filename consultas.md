@@ -1,6 +1,4 @@
----
-
-### 🎯 Preguntas de Competencia (Competency Questions)
+### Preguntas de Competencia (Competency Questions)
 
 **P1: ¿Qué propiedades están disponibles en una determinada ubicación (ej. Santa Cruz o Cochabamba)?**
 ```text
@@ -82,7 +80,6 @@ Propiedad and (tipoAcceso value "LlaveElectronica" or tipoAcceso value "CodigoNu
 Apartamento and (ubicadaEn value Zona_LP) and (tieneAscensor value "true"^^xsd:boolean) and (numeroPiso some xsd:int[>= 3])
 ```
 
----
 
 ### 🟢 1. Nivel Básico (Instancias Directas)
 
