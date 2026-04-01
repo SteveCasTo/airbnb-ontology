@@ -70,6 +70,9 @@
         <ObjectProperty IRI="#ubicadaEn"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#tienePropositoViaje"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#areaTotal"/>
     </Declaration>
     <Declaration>
@@ -190,7 +193,7 @@
         <DataProperty IRI="#seguridadEdificio"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#tieneAsensor"/>
+        <DataProperty IRI="#tieneAscensor"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#tieneJardin"/>
@@ -1254,6 +1257,41 @@
         <NamedIndividual IRI="#Zona_SCZ"/>
         <NamedIndividual IRI="#ExpoCruz"/>
     </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tienePropositoViaje"/>
+        <NamedIndividual IRI="#Amigos"/>
+        <NamedIndividual IRI="#ViajeVacacional"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tienePropositoViaje"/>
+        <NamedIndividual IRI="#Dual"/>
+        <NamedIndividual IRI="#ViajeTrabajo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tienePropositoViaje"/>
+        <NamedIndividual IRI="#Familiar"/>
+        <NamedIndividual IRI="#ViajeFamiliar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tienePropositoViaje"/>
+        <NamedIndividual IRI="#Individual"/>
+        <NamedIndividual IRI="#ViajeEstudios"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tienePropositoViaje"/>
+        <NamedIndividual IRI="#Pareja"/>
+        <NamedIndividual IRI="#ViajeVacacional"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tienePolitica"/>
+        <NamedIndividual IRI="#Casa_Urbana_1"/>
+        <NamedIndividual IRI="#PoliticaPetFriendly"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tienePolitica"/>
+        <NamedIndividual IRI="#Villa_Lujo_2"/>
+        <NamedIndividual IRI="#PoliticaPetFriendly"/>
+    </ObjectPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#categoriaAmenidad"/>
         <NamedIndividual IRI="#AireAcondicionado"/>
@@ -1277,17 +1315,17 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroAdultos"/>
         <NamedIndividual IRI="#Amigos"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">7</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">7</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroMascotas"/>
         <NamedIndividual IRI="#Amigos"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroNinos"/>
         <NamedIndividual IRI="#Amigos"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#presupuestoNoche"/>
@@ -1350,7 +1388,7 @@
         <Literal>Vigilancia24h</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#tieneAsensor"/>
+        <DataProperty IRI="#tieneAscensor"/>
         <NamedIndividual IRI="#Apto_Centro_1"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </DataPropertyAssertion>
@@ -1420,7 +1458,7 @@
         <Literal>Vigilancia24h</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#tieneAsensor"/>
+        <DataProperty IRI="#tieneAscensor"/>
         <NamedIndividual IRI="#Apto_Centro_2"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </DataPropertyAssertion>
@@ -1490,7 +1528,7 @@
         <Literal>Vigilancia24h</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#tieneAsensor"/>
+        <DataProperty IRI="#tieneAscensor"/>
         <NamedIndividual IRI="#Apto_Centro_3"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </DataPropertyAssertion>
@@ -1560,7 +1598,7 @@
         <Literal>Vigilancia24h</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#tieneAsensor"/>
+        <DataProperty IRI="#tieneAscensor"/>
         <NamedIndividual IRI="#Apto_Centro_4"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </DataPropertyAssertion>
@@ -1630,7 +1668,7 @@
         <Literal>Vigilancia24h</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#tieneAsensor"/>
+        <DataProperty IRI="#tieneAscensor"/>
         <NamedIndividual IRI="#Apto_Centro_5"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </DataPropertyAssertion>
@@ -2012,17 +2050,17 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroAdultos"/>
         <NamedIndividual IRI="#Dual"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroMascotas"/>
         <NamedIndividual IRI="#Dual"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroNinos"/>
         <NamedIndividual IRI="#Dual"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#presupuestoNoche"/>
@@ -2052,17 +2090,17 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroAdultos"/>
         <NamedIndividual IRI="#Familiar"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroMascotas"/>
         <NamedIndividual IRI="#Familiar"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroNinos"/>
         <NamedIndividual IRI="#Familiar"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">3</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#presupuestoNoche"/>
@@ -2717,17 +2755,17 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroAdultos"/>
         <NamedIndividual IRI="#Individual"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroMascotas"/>
         <NamedIndividual IRI="#Individual"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroNinos"/>
         <NamedIndividual IRI="#Individual"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#presupuestoNoche"/>
@@ -2742,17 +2780,17 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroAdultos"/>
         <NamedIndividual IRI="#Pareja"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroMascotas"/>
         <NamedIndividual IRI="#Pareja"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroNinos"/>
         <NamedIndividual IRI="#Pareja"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#presupuestoNoche"/>
@@ -3519,6 +3557,10 @@
         <ObjectProperty IRI="#ubicadaEn"/>
         <Class IRI="#Propiedad"/>
     </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tienePropositoViaje"/>
+        <Class IRI="#PerfilHuesped"/>
+    </ObjectPropertyDomain>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#compatibleCon"/>
         <Class IRI="#PerfilHuesped"/>
@@ -3538,6 +3580,10 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#ubicadaEn"/>
         <Class IRI="#ZonaGeografica"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tienePropositoViaje"/>
+        <Class IRI="#PropositoViaje"/>
     </ObjectPropertyRange>
     <DataPropertyDomain>
         <DataProperty IRI="#areaTotal"/>
@@ -3700,7 +3746,7 @@
         <Class IRI="#Apartamento"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#tieneAsensor"/>
+        <DataProperty IRI="#tieneAscensor"/>
         <Class IRI="#Apartamento"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
@@ -3947,7 +3993,7 @@
         </DataOneOf>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#tieneAsensor"/>
+        <DataProperty IRI="#tieneAscensor"/>
         <Datatype abbreviatedIRI="xsd:boolean"/>
     </DataPropertyRange>
     <DataPropertyRange>
@@ -4049,9 +4095,24 @@
             <Literal>Urbana</Literal>
         </DataOneOf>
     </DataPropertyRange>
+    <DisjointClasses>
+        <Class IRI="#Apartamento"/>
+        <Class IRI="#Casa"/>
+        <Class IRI="#Villa"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HabitacionCompartida"/>
+        <Class IRI="#HabitacionPrivada"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#AlojamientoCompleto"/>
+        <Class IRI="#AlojamientoHabitacion"/>
+    </DisjointClasses>
 </Ontology>
 
 
 
 <!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
+
 
