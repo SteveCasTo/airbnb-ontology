@@ -1,0 +1,15 @@
+prop,nombre,ciudad,densidad
+Apto_Centro_4,Apartamento Moderno 4,Chuquisaca,Baja
+Hab_Compartida_5,Cama en Hostal 5,Chuquisaca,Baja
+Casa_Urbana_4,Casa Acogedora 4,Chuquisaca,Baja
+Hab_Privada_1,Habitación Privada Romántica,Chuquisaca,Baja
+Apto_Centro_1,Apartamento Ejecutivo La Paz,La Paz,Rural
+Hab_Compartida_3,Cama en Hostal 3,La Paz,Rural
+Casa_Urbana_2,Casa Acogedora 2,La Paz,Rural
+Hab_Privada_3,Habitacion Confort 3,La Paz,Rural
+Villa_Lujo_3,Villa Espectacular 3,La Paz,Rural
+Apto_Centro_5,Apartamento Moderno 5,Tarija,Media
+Hab_Compartida_1,Cama en Habitación Compartida Mochileros,Tarija,Media
+Casa_Urbana_5,Casa Acogedora 5,Tarija,Media
+Hab_Privada_5,Habitacion Confort 5,Tarija,Media
+Villa_Lujo_5,Villa Espectacular 5,Tarija,Media

@@ -1,0 +1,21 @@
+prop,nombre,puntoNombre,distancia
+Apto_Centro_5,Apartamento Moderno 5,Terminal Central,650
+Hab_Compartida_1,Cama en Habitación Compartida Mochileros,Terminal Central,650
+Casa_Urbana_5,Casa Acogedora 5,Terminal Central,650
+Hab_Privada_5,Habitacion Confort 5,Terminal Central,650
+Villa_Lujo_5,Villa Espectacular 5,Terminal Central,650
+Apto_Centro_2,Apartamento Moderno 2,Hospital Central,800
+Hab_Compartida_2,Cama en Hostal 2,Hospital Central,800
+Hab_Privada_2,Habitacion Confort 2,Hospital Central,800
+Casa_Urbana_1,Hermosa Casa en Cochabamba,Hospital Central,800
+Villa_Lujo_2,Villa Espectacular 2,Hospital Central,800
+Apto_Centro_1,Apartamento Ejecutivo La Paz,Universidad del Centro,900
+Hab_Compartida_3,Cama en Hostal 3,Universidad del Centro,900
+Casa_Urbana_2,Casa Acogedora 2,Universidad del Centro,900
+Hab_Privada_3,Habitacion Confort 3,Universidad del Centro,900
+Villa_Lujo_3,Villa Espectacular 3,Universidad del Centro,900
+Apto_Centro_2,Apartamento Moderno 2,Cristo de la Concordia,1500
+Hab_Compartida_2,Cama en Hostal 2,Cristo de la Concordia,1500
+Hab_Privada_2,Habitacion Confort 2,Cristo de la Concordia,1500
+Casa_Urbana_1,Hermosa Casa en Cochabamba,Cristo de la Concordia,1500
+Villa_Lujo_2,Villa Espectacular 2,Cristo de la Concordia,1500

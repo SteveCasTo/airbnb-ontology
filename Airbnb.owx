@@ -268,6 +268,9 @@
         <NamedIndividual IRI="#Cocina"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Desayuno"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#CristoRedentor"/>
     </Declaration>
     <Declaration>
@@ -313,6 +316,12 @@
         <NamedIndividual IRI="#HospitalCentral"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Lavanderia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Limpieza"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Individual"/>
     </Declaration>
     <Declaration>
@@ -320,6 +329,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Parking"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ParkingGratis"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Piscina"/>
@@ -368,6 +380,12 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Villa_Lujo_5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TerminalCentral"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UniversidadCentro"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Wifi"/>
@@ -468,6 +486,10 @@
         <NamedIndividual IRI="#Cocina"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Amenidad"/>
+        <NamedIndividual IRI="#Desayuno"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#PuntoInteres"/>
         <NamedIndividual IRI="#CristoRedentor"/>
     </ClassAssertion>
@@ -528,6 +550,14 @@
         <NamedIndividual IRI="#HospitalCentral"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Amenidad"/>
+        <NamedIndividual IRI="#Lavanderia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Amenidad"/>
+        <NamedIndividual IRI="#Limpieza"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#PerfilHuesped"/>
         <NamedIndividual IRI="#Individual"/>
     </ClassAssertion>
@@ -538,6 +568,10 @@
     <ClassAssertion>
         <Class IRI="#Amenidad"/>
         <NamedIndividual IRI="#Parking"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Amenidad"/>
+        <NamedIndividual IRI="#ParkingGratis"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Amenidad"/>
@@ -604,6 +638,14 @@
         <NamedIndividual IRI="#Villa_Lujo_5"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#PuntoInteres"/>
+        <NamedIndividual IRI="#TerminalCentral"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PuntoInteres"/>
+        <NamedIndividual IRI="#UniversidadCentro"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Amenidad"/>
         <NamedIndividual IRI="#Wifi"/>
     </ClassAssertion>
@@ -1291,6 +1333,61 @@
         <ObjectProperty IRI="#tienePolitica"/>
         <NamedIndividual IRI="#Villa_Lujo_2"/>
         <NamedIndividual IRI="#PoliticaPetFriendly"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Apto_Centro_1"/>
+        <NamedIndividual IRI="#Desayuno"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Apto_Centro_1"/>
+        <NamedIndividual IRI="#Limpieza"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Casa_Urbana_1"/>
+        <NamedIndividual IRI="#Lavanderia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Casa_Urbana_1"/>
+        <NamedIndividual IRI="#ParkingGratis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Hab_Privada_2"/>
+        <NamedIndividual IRI="#Desayuno"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Villa_Lujo_2"/>
+        <NamedIndividual IRI="#Desayuno"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Villa_Lujo_2"/>
+        <NamedIndividual IRI="#Limpieza"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Villa_Lujo_2"/>
+        <NamedIndividual IRI="#Lavanderia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Villa_Lujo_2"/>
+        <NamedIndividual IRI="#ParkingGratis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tienePuntoInteres"/>
+        <NamedIndividual IRI="#Zona_LP"/>
+        <NamedIndividual IRI="#UniversidadCentro"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tienePuntoInteres"/>
+        <NamedIndividual IRI="#Zona_TARIJA"/>
+        <NamedIndividual IRI="#TerminalCentral"/>
     </ObjectPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#categoriaAmenidad"/>
@@ -3411,6 +3508,116 @@
         <DataProperty IRI="#nombreAmenidad"/>
         <NamedIndividual IRI="#Wifi"/>
         <Literal>WiFi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#categoriaAmenidad"/>
+        <NamedIndividual IRI="#Desayuno"/>
+        <Literal>Alimentacion</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#costoAdicional"/>
+        <NamedIndividual IRI="#Desayuno"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">8.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#disponibilidad"/>
+        <NamedIndividual IRI="#Desayuno"/>
+        <Literal>Permanente</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreAmenidad"/>
+        <NamedIndividual IRI="#Desayuno"/>
+        <Literal>Desayuno</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#categoriaAmenidad"/>
+        <NamedIndividual IRI="#Lavanderia"/>
+        <Literal>Servicio</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#costoAdicional"/>
+        <NamedIndividual IRI="#Lavanderia"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#disponibilidad"/>
+        <NamedIndividual IRI="#Lavanderia"/>
+        <Literal>Permanente</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreAmenidad"/>
+        <NamedIndividual IRI="#Lavanderia"/>
+        <Literal>Lavanderia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#categoriaAmenidad"/>
+        <NamedIndividual IRI="#Limpieza"/>
+        <Literal>Servicio</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#costoAdicional"/>
+        <NamedIndividual IRI="#Limpieza"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#disponibilidad"/>
+        <NamedIndividual IRI="#Limpieza"/>
+        <Literal>Permanente</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreAmenidad"/>
+        <NamedIndividual IRI="#Limpieza"/>
+        <Literal>Limpieza</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#categoriaAmenidad"/>
+        <NamedIndividual IRI="#ParkingGratis"/>
+        <Literal>Transporte</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#costoAdicional"/>
+        <NamedIndividual IRI="#ParkingGratis"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#disponibilidad"/>
+        <NamedIndividual IRI="#ParkingGratis"/>
+        <Literal>Permanente</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreAmenidad"/>
+        <NamedIndividual IRI="#ParkingGratis"/>
+        <Literal>EstacionamientoGratis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#distanciaMetros"/>
+        <NamedIndividual IRI="#TerminalCentral"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">650</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombrePunto"/>
+        <NamedIndividual IRI="#TerminalCentral"/>
+        <Literal>Terminal Central</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoPunto"/>
+        <NamedIndividual IRI="#TerminalCentral"/>
+        <Literal>Transporte</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#distanciaMetros"/>
+        <NamedIndividual IRI="#UniversidadCentro"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">900</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombrePunto"/>
+        <NamedIndividual IRI="#UniversidadCentro"/>
+        <Literal>Universidad del Centro</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoPunto"/>
+        <NamedIndividual IRI="#UniversidadCentro"/>
+        <Literal>Educacion</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#ciudad"/>

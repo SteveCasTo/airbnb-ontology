@@ -1,0 +1,16 @@
+prop,nombre,precio
+Hab_Compartida_4,Cama en Hostal 4,6.0
+Hab_Compartida_2,Cama en Hostal 2,9.0
+Hab_Compartida_1,Cama en Habitación Compartida Mochileros,10.0
+Hab_Compartida_5,Cama en Hostal 5,10.0
+Hab_Compartida_3,Cama en Hostal 3,12.0
+Hab_Privada_4,Habitacion Confort 4,15.0
+Hab_Privada_5,Habitacion Confort 5,18.0
+Hab_Privada_2,Habitacion Confort 2,22.0
+Hab_Privada_3,Habitacion Confort 3,25.0
+Hab_Privada_1,Habitación Privada Romántica,25.0
+Apto_Centro_4,Apartamento Moderno 4,35.0
+Apto_Centro_1,Apartamento Ejecutivo La Paz,40.0
+Casa_Urbana_5,Casa Acogedora 5,45.0
+Apto_Centro_2,Apartamento Moderno 2,50.0
+Apto_Centro_5,Apartamento Moderno 5,50.0

@@ -1,0 +1,24 @@
+prop,nombre,politica,maxNoches
+Apto_Centro_3,Apartamento Moderno 3,PoliticaFlexible,90
+Hab_Compartida_1,Cama en Habitación Compartida Mochileros,PoliticaFlexible,90
+Hab_Compartida_3,Cama en Hostal 3,PoliticaFlexible,90
+Casa_Urbana_3,Casa Acogedora 3,PoliticaFlexible,90
+Casa_Urbana_5,Casa Acogedora 5,PoliticaFlexible,90
+Hab_Privada_3,Habitacion Confort 3,PoliticaFlexible,90
+Villa_Lujo_2,Villa Espectacular 2,PoliticaFlexible,90
+Villa_Lujo_1,Villa Paraiso Santa Cruz,PoliticaFlexible,90
+Apto_Centro_5,Apartamento Moderno 5,PoliticaModerada,60
+Hab_Compartida_2,Cama en Hostal 2,PoliticaModerada,60
+Casa_Urbana_4,Casa Acogedora 4,PoliticaModerada,60
+Hab_Privada_2,Habitacion Confort 2,PoliticaModerada,60
+Casa_Urbana_1,Hermosa Casa en Cochabamba,PoliticaModerada,60
+Villa_Lujo_3,Villa Espectacular 3,PoliticaModerada,60
+Apto_Centro_1,Apartamento Ejecutivo La Paz,PoliticaEstricta,30
+Apto_Centro_4,Apartamento Moderno 4,PoliticaEstricta,30
+Hab_Compartida_5,Cama en Hostal 5,PoliticaEstricta,30
+Casa_Urbana_2,Casa Acogedora 2,PoliticaEstricta,30
+Hab_Privada_4,Habitacion Confort 4,PoliticaEstricta,30
+Hab_Privada_5,Habitacion Confort 5,PoliticaEstricta,30
+Casa_Urbana_1,Hermosa Casa en Cochabamba,PoliticaPetFriendly,30
+Villa_Lujo_2,Villa Espectacular 2,PoliticaPetFriendly,30
+Villa_Lujo_4,Villa Espectacular 4,PoliticaEstricta,30

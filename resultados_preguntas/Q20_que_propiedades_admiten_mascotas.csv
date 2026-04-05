@@ -1,0 +1,17 @@
+prop,nombre,politica
+Apto_Centro_3,Apartamento Moderno 3,PoliticaFlexible
+Apto_Centro_5,Apartamento Moderno 5,PoliticaModerada
+Hab_Compartida_1,Cama en Habitación Compartida Mochileros,PoliticaFlexible
+Hab_Compartida_2,Cama en Hostal 2,PoliticaModerada
+Hab_Compartida_3,Cama en Hostal 3,PoliticaFlexible
+Casa_Urbana_3,Casa Acogedora 3,PoliticaFlexible
+Casa_Urbana_4,Casa Acogedora 4,PoliticaModerada
+Casa_Urbana_5,Casa Acogedora 5,PoliticaFlexible
+Hab_Privada_2,Habitacion Confort 2,PoliticaModerada
+Hab_Privada_3,Habitacion Confort 3,PoliticaFlexible
+Casa_Urbana_1,Hermosa Casa en Cochabamba,PoliticaModerada
+Casa_Urbana_1,Hermosa Casa en Cochabamba,PoliticaPetFriendly
+Villa_Lujo_2,Villa Espectacular 2,PoliticaFlexible
+Villa_Lujo_2,Villa Espectacular 2,PoliticaPetFriendly
+Villa_Lujo_3,Villa Espectacular 3,PoliticaModerada
+Villa_Lujo_1,Villa Paraiso Santa Cruz,PoliticaFlexible
