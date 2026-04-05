@@ -1,10 +1,16 @@
 prop,nombre,precio
-Apto_Centro_4,Apartamento Moderno 4,35.0
-Apto_Centro_1,Apartamento Ejecutivo La Paz,40.0
-Casa_Urbana_5,Casa Acogedora 5,45.0
-Apto_Centro_2,Apartamento Moderno 2,50.0
-Apto_Centro_5,Apartamento Moderno 5,50.0
-Apto_Centro_3,Apartamento Moderno 3,55.0
-Casa_Urbana_4,Casa Acogedora 4,55.0
-Casa_Urbana_1,Hermosa Casa en Cochabamba,55.0
-Casa_Urbana_2,Casa Acogedora 2,60.0
+Hab_Privada_Achumani_1,Habitacion privada en Achumani,32.0
+Apto_Centro_4,Departamento colonial en La Recoleta,35.0
+Apto_CentroSucre_1,Apartamento estudiantil en centro de Sucre,40.0
+Apto_Centro_1,Departamento ejecutivo en Sopocachi,40.0
+Casa_Urbana_5,Casa comoda en San Bernardo,45.0
+Hab_Privada_Urubo_1,Suite privada en Urubo,45.0
+Apto_SanRoque_1,Departamento funcional en San Roque,47.0
+Apto_Centro_5,Departamento familiar en San Bernardo,50.0
+Apto_Centro_2,Monoambiente en Cala Cala,50.0
+Apto_Achumani_1,Departamento con vista en Achumani,52.0
+Casa_Urbana_1,Casa familiar con patio en Cala Cala,55.0
+Casa_Urbana_4,Casa patrimonial remodelada en Sucre,55.0
+Apto_Centro_3,Departamento con piscina en Equipetrol,55.0
+Apto_Tiquipaya_1,Departamento familiar en Tiquipaya,58.0
+Casa_Urbana_2,Casa ejecutiva en Sopocachi Alto,60.0

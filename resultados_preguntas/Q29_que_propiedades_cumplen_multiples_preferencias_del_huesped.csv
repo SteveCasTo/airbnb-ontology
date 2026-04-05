@@ -1,20 +1,33 @@
 prop,nombre,criteriosCumplidos
-Apto_Centro_5,Apartamento Moderno 5,5
-Casa_Urbana_5,Casa Acogedora 5,5
-Casa_Urbana_1,Hermosa Casa en Cochabamba,5
-Hab_Compartida_2,Cama en Hostal 2,4
-Casa_Urbana_2,Casa Acogedora 2,4
-Casa_Urbana_4,Casa Acogedora 4,4
-Hab_Privada_3,Habitacion Confort 3,4
-Villa_Lujo_2,Villa Espectacular 2,4
-Apto_Centro_1,Apartamento Ejecutivo La Paz,3
-Apto_Centro_2,Apartamento Moderno 2,3
-Apto_Centro_3,Apartamento Moderno 3,3
-Hab_Compartida_1,Cama en Habitación Compartida Mochileros,3
-Hab_Compartida_3,Cama en Hostal 3,3
-Casa_Urbana_3,Casa Acogedora 3,3
-Hab_Privada_2,Habitacion Confort 2,3
-Hab_Privada_5,Habitacion Confort 5,3
-Villa_Lujo_3,Villa Espectacular 3,3
-Villa_Lujo_5,Villa Espectacular 5,3
-Villa_Lujo_1,Villa Paraiso Santa Cruz,3
+Casa_Urbana_5,Casa comoda en San Bernardo,5
+Casa_Urbana_1,Casa familiar con patio en Cala Cala,5
+Apto_Centro_5,Departamento familiar en San Bernardo,5
+Hab_Compartida_2,Cama en residencia compartida de Cala Cala,4
+Hab_Compartida_SanRoque_1,Cama en residencial de San Roque,4
+Casa_Urbana_2,Casa ejecutiva en Sopocachi Alto,4
+Casa_Urubo_1,Casa moderna en Urubo,4
+Casa_Urbana_4,Casa patrimonial remodelada en Sucre,4
+Casa_SanRoque_1,Casa tarijena con galeria en San Roque,4
+Apto_Tiquipaya_1,Departamento familiar en Tiquipaya,4
+Hab_Privada_SanRoque_1,Habitacion privada en San Roque,4
+Villa_Lujo_2,Quinta familiar en Cochabamba,4
+Hab_Privada_3,Suite privada en Sopocachi,4
+Hab_Privada_Urubo_1,Suite privada en Urubo,4
+Hab_Compartida_3,Cama en casa compartida de Sopocachi,3
+Hab_Compartida_1,Cama en hostel del centro de Tarija,3
+Hab_Compartida_Urubo_1,Cama en residencia de Urubo,3
+Casa_Achumani_1,Casa amplia con jardin en Achumani,3
+Casa_Urbana_3,Casa con piscina en zona norte de Santa Cruz,3
+Villa_Lujo_5,Casaquinta de alta capacidad en Tarija,3
+Villa_SanRoque_1,Casaquinta en San Roque,3
+Villa_Lujo_1,Casaquinta para eventos en Santa Cruz,3
+Casa_CentroSucre_1,Casona patrimonial en centro de Sucre,3
+Apto_Centro_3,Departamento con piscina en Equipetrol,3
+Apto_Centro_1,Departamento ejecutivo en Sopocachi,3
+Apto_SanRoque_1,Departamento funcional en San Roque,3
+Hab_Privada_5,Habitacion matrimonial en San Bernardo,3
+Hab_Privada_2,Habitacion privada cerca de Cala Cala,3
+Hab_Privada_Tiquipaya_1,Habitacion privada con jardin en Tiquipaya,3
+Apto_Centro_2,Monoambiente en Cala Cala,3
+Villa_Lujo_3,Residencia premium en La Paz,3
+Villa_Urubo_1,Villa premium en Urubo,3

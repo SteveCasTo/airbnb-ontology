@@ -1,10 +1,20 @@
 prop,nombre,capacidad
-Villa_Lujo_5,Villa Espectacular 5,20
-Villa_Lujo_3,Villa Espectacular 3,15
-Villa_Lujo_1,Villa Paraiso Santa Cruz,15
-Villa_Lujo_2,Villa Espectacular 2,12
-Villa_Lujo_4,Villa Espectacular 4,10
-Casa_Urbana_4,Casa Acogedora 4,7
-Casa_Urbana_3,Casa Acogedora 3,6
-Casa_Urbana_1,Hermosa Casa en Cochabamba,6
-Casa_Urbana_2,Casa Acogedora 2,5
+Villa_Lujo_5,Casaquinta de alta capacidad en Tarija,20
+Villa_Urubo_1,Villa premium en Urubo,18
+Villa_Tiquipaya_1,Quinta con jardin en Tiquipaya,16
+Villa_Lujo_1,Casaquinta para eventos en Santa Cruz,15
+Villa_Lujo_3,Residencia premium en La Paz,15
+Villa_SanRoque_1,Casaquinta en San Roque,14
+Villa_Lujo_2,Quinta familiar en Cochabamba,12
+Villa_Achumani_1,Residencia con vistas en Achumani,10
+Villa_Lujo_4,Villa moderna con piscina en Santa Cruz,10
+Villa_CentroSucre_1,Casona privada para eventos en Sucre,9
+Casa_Tiquipaya_1,Casa de descanso en Tiquipaya,7
+Casa_Urbana_4,Casa patrimonial remodelada en Sucre,7
+Casa_Achumani_1,Casa amplia con jardin en Achumani,6
+Casa_Urbana_3,Casa con piscina en zona norte de Santa Cruz,6
+Casa_Urbana_1,Casa familiar con patio en Cala Cala,6
+Casa_Urubo_1,Casa moderna en Urubo,6
+Casa_Urbana_2,Casa ejecutiva en Sopocachi Alto,5
+Casa_SanRoque_1,Casa tarijena con galeria en San Roque,5
+Casa_CentroSucre_1,Casona patrimonial en centro de Sucre,5

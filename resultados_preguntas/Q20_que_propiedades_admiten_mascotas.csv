@@ -1,17 +1,30 @@
 prop,nombre,politica
-Apto_Centro_3,Apartamento Moderno 3,PoliticaFlexible
-Apto_Centro_5,Apartamento Moderno 5,PoliticaModerada
-Hab_Compartida_1,Cama en Habitación Compartida Mochileros,PoliticaFlexible
-Hab_Compartida_2,Cama en Hostal 2,PoliticaModerada
-Hab_Compartida_3,Cama en Hostal 3,PoliticaFlexible
-Casa_Urbana_3,Casa Acogedora 3,PoliticaFlexible
-Casa_Urbana_4,Casa Acogedora 4,PoliticaModerada
-Casa_Urbana_5,Casa Acogedora 5,PoliticaFlexible
-Hab_Privada_2,Habitacion Confort 2,PoliticaModerada
-Hab_Privada_3,Habitacion Confort 3,PoliticaFlexible
-Casa_Urbana_1,Hermosa Casa en Cochabamba,PoliticaModerada
-Casa_Urbana_1,Hermosa Casa en Cochabamba,PoliticaPetFriendly
-Villa_Lujo_2,Villa Espectacular 2,PoliticaFlexible
-Villa_Lujo_2,Villa Espectacular 2,PoliticaPetFriendly
-Villa_Lujo_3,Villa Espectacular 3,PoliticaModerada
-Villa_Lujo_1,Villa Paraiso Santa Cruz,PoliticaFlexible
+Hab_Compartida_3,Cama en casa compartida de Sopocachi,PoliticaFlexible
+Hab_Compartida_1,Cama en hostel del centro de Tarija,PoliticaFlexible
+Hab_Compartida_2,Cama en residencia compartida de Cala Cala,PoliticaModerada
+Hab_Compartida_SanRoque_1,Cama en residencial de San Roque,PoliticaModerada
+Casa_Achumani_1,Casa amplia con jardin en Achumani,PoliticaResidencial
+Casa_Urbana_5,Casa comoda en San Bernardo,PoliticaFlexible
+Casa_Urbana_3,Casa con piscina en zona norte de Santa Cruz,PoliticaFlexible
+Casa_Tiquipaya_1,Casa de descanso en Tiquipaya,PoliticaPetFriendly
+Casa_Urbana_1,Casa familiar con patio en Cala Cala,PoliticaModerada
+Casa_Urbana_1,Casa familiar con patio en Cala Cala,PoliticaPetFriendly
+Casa_Urubo_1,Casa moderna en Urubo,PoliticaEscapada
+Casa_Urbana_4,Casa patrimonial remodelada en Sucre,PoliticaModerada
+Casa_SanRoque_1,Casa tarijena con galeria en San Roque,PoliticaEscapada
+Villa_SanRoque_1,Casaquinta en San Roque,PoliticaResidencial
+Villa_Lujo_1,Casaquinta para eventos en Santa Cruz,PoliticaFlexible
+Casa_CentroSucre_1,Casona patrimonial en centro de Sucre,PoliticaModerada
+Apto_Centro_3,Departamento con piscina en Equipetrol,PoliticaFlexible
+Apto_Centro_5,Departamento familiar en San Bernardo,PoliticaModerada
+Apto_Tiquipaya_1,Departamento familiar en Tiquipaya,PoliticaResidencial
+Hab_Privada_2,Habitacion privada cerca de Cala Cala,PoliticaModerada
+Hab_Privada_Tiquipaya_1,Habitacion privada con jardin en Tiquipaya,PoliticaEscapada
+Hab_Privada_SanRoque_1,Habitacion privada en San Roque,PoliticaFlexible
+Apto_Urubo_1,Loft con piscina en Urubo,PoliticaEscapada
+Villa_Tiquipaya_1,Quinta con jardin en Tiquipaya,PoliticaPetFriendly
+Villa_Lujo_2,Quinta familiar en Cochabamba,PoliticaFlexible
+Villa_Lujo_2,Quinta familiar en Cochabamba,PoliticaPetFriendly
+Villa_Lujo_3,Residencia premium en La Paz,PoliticaModerada
+Hab_Privada_3,Suite privada en Sopocachi,PoliticaFlexible
+Hab_Privada_Urubo_1,Suite privada en Urubo,PoliticaEscapada

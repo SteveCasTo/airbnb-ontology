@@ -1,6 +1,11 @@
 prop,nombre,ciudad
-Apto_Centro_2,Apartamento Moderno 2,Cochabamba
-Hab_Compartida_2,Cama en Hostal 2,Cochabamba
-Hab_Privada_2,Habitacion Confort 2,Cochabamba
-Casa_Urbana_1,Hermosa Casa en Cochabamba,Cochabamba
-Villa_Lujo_2,Villa Espectacular 2,Cochabamba
+Hab_Compartida_Tiquipaya_1,Cama en casa compartida de Tiquipaya,Cochabamba
+Hab_Compartida_2,Cama en residencia compartida de Cala Cala,Cochabamba
+Casa_Tiquipaya_1,Casa de descanso en Tiquipaya,Cochabamba
+Casa_Urbana_1,Casa familiar con patio en Cala Cala,Cochabamba
+Apto_Tiquipaya_1,Departamento familiar en Tiquipaya,Cochabamba
+Hab_Privada_2,Habitacion privada cerca de Cala Cala,Cochabamba
+Hab_Privada_Tiquipaya_1,Habitacion privada con jardin en Tiquipaya,Cochabamba
+Apto_Centro_2,Monoambiente en Cala Cala,Cochabamba
+Villa_Tiquipaya_1,Quinta con jardin en Tiquipaya,Cochabamba
+Villa_Lujo_2,Quinta familiar en Cochabamba,Cochabamba

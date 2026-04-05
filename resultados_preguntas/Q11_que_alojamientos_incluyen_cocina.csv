@@ -1,8 +1,21 @@
 prop,nombre
-Apto_Centro_4,Apartamento Moderno 4
-Hab_Compartida_3,Cama en Hostal 3
-Hab_Compartida_5,Cama en Hostal 5
-Casa_Urbana_4,Casa Acogedora 4
-Hab_Privada_2,Habitacion Confort 2
-Casa_Urbana_1,Hermosa Casa en Cochabamba
-Villa_Lujo_3,Villa Espectacular 3
+Apto_CentroSucre_1,Apartamento estudiantil en centro de Sucre
+Hab_Compartida_3,Cama en casa compartida de Sopocachi
+Hab_Compartida_Tiquipaya_1,Cama en casa compartida de Tiquipaya
+Hab_Compartida_5,Cama en casona estudiantil de La Recoleta
+Hab_Compartida_CentroSucre_1,Cama en hostal del centro de Sucre
+Casa_Achumani_1,Casa amplia con jardin en Achumani
+Casa_Tiquipaya_1,Casa de descanso en Tiquipaya
+Casa_Urbana_1,Casa familiar con patio en Cala Cala
+Casa_Urbana_4,Casa patrimonial remodelada en Sucre
+Casa_SanRoque_1,Casa tarijena con galeria en San Roque
+Casa_CentroSucre_1,Casona patrimonial en centro de Sucre
+Villa_CentroSucre_1,Casona privada para eventos en Sucre
+Apto_Centro_4,Departamento colonial en La Recoleta
+Apto_Achumani_1,Departamento con vista en Achumani
+Apto_Tiquipaya_1,Departamento familiar en Tiquipaya
+Hab_Privada_2,Habitacion privada cerca de Cala Cala
+Hab_Privada_CentroSucre_1,Habitacion privada para estudiante en Sucre
+Villa_Tiquipaya_1,Quinta con jardin en Tiquipaya
+Villa_Achumani_1,Residencia con vistas en Achumani
+Villa_Lujo_3,Residencia premium en La Paz

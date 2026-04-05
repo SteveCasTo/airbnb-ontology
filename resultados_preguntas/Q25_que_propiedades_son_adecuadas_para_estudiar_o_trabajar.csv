@@ -1,11 +1,17 @@
 prop,nombre,perfil,proposito
-Apto_Centro_1,Apartamento Ejecutivo La Paz,Dual,ViajeTrabajo
-Apto_Centro_2,Apartamento Moderno 2,Individual,ViajeEstudios
-Apto_Centro_3,Apartamento Moderno 3,Dual,ViajeTrabajo
-Hab_Compartida_1,Cama en Habitación Compartida Mochileros,Individual,ViajeEstudios
-Hab_Compartida_2,Cama en Hostal 2,Individual,ViajeEstudios
-Hab_Compartida_4,Cama en Hostal 4,Individual,ViajeEstudios
-Hab_Compartida_5,Cama en Hostal 5,Individual,ViajeEstudios
-Casa_Urbana_2,Casa Acogedora 2,Dual,ViajeTrabajo
-Hab_Privada_2,Habitacion Confort 2,Individual,ViajeEstudios
-Hab_Privada_4,Habitacion Confort 4,Individual,ViajeEstudios
+Apto_CentroSucre_1,Apartamento estudiantil en centro de Sucre,GrupoEstudiantil,ViajePasantia
+Hab_Compartida_Tiquipaya_1,Cama en casa compartida de Tiquipaya,GrupoEstudiantil,ViajePasantia
+Hab_Compartida_5,Cama en casona estudiantil de La Recoleta,Individual,ViajeEstudios
+Hab_Compartida_4,Cama en condominio compartido de Equipetrol,Individual,ViajeEstudios
+Hab_Compartida_CentroSucre_1,Cama en hostal del centro de Sucre,GrupoEstudiantil,ViajePasantia
+Hab_Compartida_1,Cama en hostel del centro de Tarija,Individual,ViajeEstudios
+Hab_Compartida_2,Cama en residencia compartida de Cala Cala,Individual,ViajeEstudios
+Hab_Compartida_Achumani_1,Cama en residencia de Achumani,GrupoEstudiantil,ViajePasantia
+Hab_Compartida_SanRoque_1,Cama en residencial de San Roque,Individual,ViajeEstudios
+Casa_Urbana_2,Casa ejecutiva en Sopocachi Alto,Dual,ViajeTrabajo
+Apto_Centro_3,Departamento con piscina en Equipetrol,Dual,ViajeTrabajo
+Apto_Centro_1,Departamento ejecutivo en Sopocachi,Dual,ViajeTrabajo
+Hab_Privada_2,Habitacion privada cerca de Cala Cala,Individual,ViajeEstudios
+Hab_Privada_4,Habitacion privada en condominio de Equipetrol,Individual,ViajeEstudios
+Hab_Privada_CentroSucre_1,Habitacion privada para estudiante en Sucre,GrupoEstudiantil,ViajePasantia
+Apto_Centro_2,Monoambiente en Cala Cala,Individual,ViajeEstudios

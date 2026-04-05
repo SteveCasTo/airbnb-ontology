@@ -1,6 +1,13 @@
 prop,nombre,precio,calificacion
-Hab_Privada_1,Habitación Privada Romántica,25.0,4.9
-Hab_Privada_3,Habitacion Confort 3,25.0,4.8
-Hab_Privada_2,Habitacion Confort 2,22.0,4.6
-Hab_Compartida_5,Cama en Hostal 5,10.0,4.5
-Apto_Centro_1,Apartamento Ejecutivo La Paz,40.0,4.5
+Hab_Privada_1,Habitacion privada con patio en La Recoleta,25.0,4.9
+Hab_Privada_Urubo_1,Suite privada en Urubo,45.0,4.9
+Hab_Privada_3,Suite privada en Sopocachi,25.0,4.8
+Hab_Privada_Tiquipaya_1,Habitacion privada con jardin en Tiquipaya,28.0,4.8
+Hab_Privada_Achumani_1,Habitacion privada en Achumani,32.0,4.7
+Hab_Compartida_CentroSucre_1,Cama en hostal del centro de Sucre,12.0,4.6
+Hab_Privada_2,Habitacion privada cerca de Cala Cala,22.0,4.6
+Apto_CentroSucre_1,Apartamento estudiantil en centro de Sucre,40.0,4.6
+Hab_Compartida_5,Cama en casona estudiantil de La Recoleta,10.0,4.5
+Hab_Compartida_Tiquipaya_1,Cama en casa compartida de Tiquipaya,11.0,4.5
+Hab_Privada_CentroSucre_1,Habitacion privada para estudiante en Sucre,20.0,4.5
+Apto_Centro_1,Departamento ejecutivo en Sopocachi,40.0,4.5

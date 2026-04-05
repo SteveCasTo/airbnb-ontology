@@ -1,24 +1,42 @@
 prop,nombre,politica,maxNoches
-Apto_Centro_3,Apartamento Moderno 3,PoliticaFlexible,90
-Hab_Compartida_1,Cama en Habitación Compartida Mochileros,PoliticaFlexible,90
-Hab_Compartida_3,Cama en Hostal 3,PoliticaFlexible,90
-Casa_Urbana_3,Casa Acogedora 3,PoliticaFlexible,90
-Casa_Urbana_5,Casa Acogedora 5,PoliticaFlexible,90
-Hab_Privada_3,Habitacion Confort 3,PoliticaFlexible,90
-Villa_Lujo_2,Villa Espectacular 2,PoliticaFlexible,90
-Villa_Lujo_1,Villa Paraiso Santa Cruz,PoliticaFlexible,90
-Apto_Centro_5,Apartamento Moderno 5,PoliticaModerada,60
-Hab_Compartida_2,Cama en Hostal 2,PoliticaModerada,60
-Casa_Urbana_4,Casa Acogedora 4,PoliticaModerada,60
-Hab_Privada_2,Habitacion Confort 2,PoliticaModerada,60
-Casa_Urbana_1,Hermosa Casa en Cochabamba,PoliticaModerada,60
-Villa_Lujo_3,Villa Espectacular 3,PoliticaModerada,60
-Apto_Centro_1,Apartamento Ejecutivo La Paz,PoliticaEstricta,30
-Apto_Centro_4,Apartamento Moderno 4,PoliticaEstricta,30
-Hab_Compartida_5,Cama en Hostal 5,PoliticaEstricta,30
-Casa_Urbana_2,Casa Acogedora 2,PoliticaEstricta,30
-Hab_Privada_4,Habitacion Confort 4,PoliticaEstricta,30
-Hab_Privada_5,Habitacion Confort 5,PoliticaEstricta,30
-Casa_Urbana_1,Hermosa Casa en Cochabamba,PoliticaPetFriendly,30
-Villa_Lujo_2,Villa Espectacular 2,PoliticaPetFriendly,30
-Villa_Lujo_4,Villa Espectacular 4,PoliticaEstricta,30
+Casa_Achumani_1,Casa amplia con jardin en Achumani,PoliticaResidencial,180
+Villa_SanRoque_1,Casaquinta en San Roque,PoliticaResidencial,180
+Apto_Tiquipaya_1,Departamento familiar en Tiquipaya,PoliticaResidencial,180
+Apto_CentroSucre_1,Apartamento estudiantil en centro de Sucre,PoliticaEstudiantil,120
+Hab_Compartida_Tiquipaya_1,Cama en casa compartida de Tiquipaya,PoliticaEstudiantil,120
+Hab_Compartida_CentroSucre_1,Cama en hostal del centro de Sucre,PoliticaEstudiantil,120
+Hab_Compartida_Achumani_1,Cama en residencia de Achumani,PoliticaEstudiantil,120
+Hab_Privada_CentroSucre_1,Habitacion privada para estudiante en Sucre,PoliticaEstudiantil,120
+Hab_Compartida_3,Cama en casa compartida de Sopocachi,PoliticaFlexible,90
+Hab_Compartida_1,Cama en hostel del centro de Tarija,PoliticaFlexible,90
+Casa_Urbana_5,Casa comoda en San Bernardo,PoliticaFlexible,90
+Casa_Urbana_3,Casa con piscina en zona norte de Santa Cruz,PoliticaFlexible,90
+Villa_Lujo_1,Casaquinta para eventos en Santa Cruz,PoliticaFlexible,90
+Apto_Centro_3,Departamento con piscina en Equipetrol,PoliticaFlexible,90
+Hab_Privada_SanRoque_1,Habitacion privada en San Roque,PoliticaFlexible,90
+Villa_Lujo_2,Quinta familiar en Cochabamba,PoliticaFlexible,90
+Hab_Privada_3,Suite privada en Sopocachi,PoliticaFlexible,90
+Hab_Compartida_2,Cama en residencia compartida de Cala Cala,PoliticaModerada,60
+Hab_Compartida_SanRoque_1,Cama en residencial de San Roque,PoliticaModerada,60
+Casa_Urbana_1,Casa familiar con patio en Cala Cala,PoliticaModerada,60
+Casa_Urbana_4,Casa patrimonial remodelada en Sucre,PoliticaModerada,60
+Casa_CentroSucre_1,Casona patrimonial en centro de Sucre,PoliticaModerada,60
+Apto_Centro_5,Departamento familiar en San Bernardo,PoliticaModerada,60
+Hab_Privada_2,Habitacion privada cerca de Cala Cala,PoliticaModerada,60
+Villa_Lujo_3,Residencia premium en La Paz,PoliticaModerada,60
+Hab_Compartida_Urubo_1,Cama en residencia de Urubo,PoliticaCorporativa,45
+Apto_Achumani_1,Departamento con vista en Achumani,PoliticaCorporativa,45
+Apto_SanRoque_1,Departamento funcional en San Roque,PoliticaCorporativa,45
+Hab_Privada_Achumani_1,Habitacion privada en Achumani,PoliticaCorporativa,45
+Villa_Achumani_1,Residencia con vistas en Achumani,PoliticaCorporativa,45
+Hab_Compartida_5,Cama en casona estudiantil de La Recoleta,PoliticaEstricta,30
+Casa_Tiquipaya_1,Casa de descanso en Tiquipaya,PoliticaPetFriendly,30
+Casa_Urbana_2,Casa ejecutiva en Sopocachi Alto,PoliticaEstricta,30
+Casa_Urbana_1,Casa familiar con patio en Cala Cala,PoliticaPetFriendly,30
+Apto_Centro_4,Departamento colonial en La Recoleta,PoliticaEstricta,30
+Apto_Centro_1,Departamento ejecutivo en Sopocachi,PoliticaEstricta,30
+Hab_Privada_5,Habitacion matrimonial en San Bernardo,PoliticaEstricta,30
+Hab_Privada_4,Habitacion privada en condominio de Equipetrol,PoliticaEstricta,30
+Villa_Tiquipaya_1,Quinta con jardin en Tiquipaya,PoliticaPetFriendly,30
+Villa_Lujo_2,Quinta familiar en Cochabamba,PoliticaPetFriendly,30
+Villa_Lujo_4,Villa moderna con piscina en Santa Cruz,PoliticaEstricta,30

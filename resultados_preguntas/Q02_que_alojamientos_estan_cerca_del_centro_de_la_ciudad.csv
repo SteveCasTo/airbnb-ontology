@@ -1,21 +1,47 @@
 prop,nombre,puntoNombre,distancia
-Apto_Centro_5,Apartamento Moderno 5,Terminal Central,650
-Hab_Compartida_1,Cama en Habitación Compartida Mochileros,Terminal Central,650
-Casa_Urbana_5,Casa Acogedora 5,Terminal Central,650
-Hab_Privada_5,Habitacion Confort 5,Terminal Central,650
-Villa_Lujo_5,Villa Espectacular 5,Terminal Central,650
-Apto_Centro_2,Apartamento Moderno 2,Hospital Central,800
-Hab_Compartida_2,Cama en Hostal 2,Hospital Central,800
-Hab_Privada_2,Habitacion Confort 2,Hospital Central,800
-Casa_Urbana_1,Hermosa Casa en Cochabamba,Hospital Central,800
-Villa_Lujo_2,Villa Espectacular 2,Hospital Central,800
-Apto_Centro_1,Apartamento Ejecutivo La Paz,Universidad del Centro,900
-Hab_Compartida_3,Cama en Hostal 3,Universidad del Centro,900
-Casa_Urbana_2,Casa Acogedora 2,Universidad del Centro,900
-Hab_Privada_3,Habitacion Confort 3,Universidad del Centro,900
-Villa_Lujo_3,Villa Espectacular 3,Universidad del Centro,900
-Apto_Centro_2,Apartamento Moderno 2,Cristo de la Concordia,1500
-Hab_Compartida_2,Cama en Hostal 2,Cristo de la Concordia,1500
-Hab_Privada_2,Habitacion Confort 2,Cristo de la Concordia,1500
-Casa_Urbana_1,Hermosa Casa en Cochabamba,Cristo de la Concordia,1500
-Villa_Lujo_2,Villa Espectacular 2,Cristo de la Concordia,1500
+Apto_CentroSucre_1,Apartamento estudiantil en centro de Sucre,Plaza 25 de Mayo,450
+Hab_Compartida_CentroSucre_1,Cama en hostal del centro de Sucre,Plaza 25 de Mayo,450
+Casa_CentroSucre_1,Casona patrimonial en centro de Sucre,Plaza 25 de Mayo,450
+Villa_CentroSucre_1,Casona privada para eventos en Sucre,Plaza 25 de Mayo,450
+Hab_Privada_CentroSucre_1,Habitacion privada para estudiante en Sucre,Plaza 25 de Mayo,450
+Hab_Compartida_SanRoque_1,Cama en residencial de San Roque,Mercado Campesino de Tarija,700
+Casa_SanRoque_1,Casa tarijena con galeria en San Roque,Mercado Campesino de Tarija,700
+Villa_SanRoque_1,Casaquinta en San Roque,Mercado Campesino de Tarija,700
+Apto_SanRoque_1,Departamento funcional en San Roque,Mercado Campesino de Tarija,700
+Hab_Privada_SanRoque_1,Habitacion privada en San Roque,Mercado Campesino de Tarija,700
+Hab_Compartida_1,Cama en hostel del centro de Tarija,Terminal de Buses de Tarija,900
+Hab_Compartida_Achumani_1,Cama en residencia de Achumani,Estacion Irpavi del Teleferico,900
+Casa_Achumani_1,Casa amplia con jardin en Achumani,Estacion Irpavi del Teleferico,900
+Casa_Urbana_5,Casa comoda en San Bernardo,Terminal de Buses de Tarija,900
+Villa_Lujo_5,Casaquinta de alta capacidad en Tarija,Terminal de Buses de Tarija,900
+Apto_Achumani_1,Departamento con vista en Achumani,Estacion Irpavi del Teleferico,900
+Apto_Centro_5,Departamento familiar en San Bernardo,Terminal de Buses de Tarija,900
+Hab_Privada_5,Habitacion matrimonial en San Bernardo,Terminal de Buses de Tarija,900
+Hab_Privada_Achumani_1,Habitacion privada en Achumani,Estacion Irpavi del Teleferico,900
+Villa_Achumani_1,Residencia con vistas en Achumani,Estacion Irpavi del Teleferico,900
+Hab_Compartida_3,Cama en casa compartida de Sopocachi,Universidad Mayor de San Andres,1100
+Casa_Urbana_2,Casa ejecutiva en Sopocachi Alto,Universidad Mayor de San Andres,1100
+Apto_Centro_1,Departamento ejecutivo en Sopocachi,Universidad Mayor de San Andres,1100
+Villa_Lujo_3,Residencia premium en La Paz,Universidad Mayor de San Andres,1100
+Hab_Privada_3,Suite privada en Sopocachi,Universidad Mayor de San Andres,1100
+Hab_Compartida_Tiquipaya_1,Cama en casa compartida de Tiquipaya,Campus Univalle Tiquipaya,1200
+Hab_Compartida_2,Cama en residencia compartida de Cala Cala,Hospital Clinico Viedma,1200
+Casa_Tiquipaya_1,Casa de descanso en Tiquipaya,Campus Univalle Tiquipaya,1200
+Casa_Urbana_1,Casa familiar con patio en Cala Cala,Hospital Clinico Viedma,1200
+Apto_Tiquipaya_1,Departamento familiar en Tiquipaya,Campus Univalle Tiquipaya,1200
+Hab_Privada_2,Habitacion privada cerca de Cala Cala,Hospital Clinico Viedma,1200
+Hab_Privada_Tiquipaya_1,Habitacion privada con jardin en Tiquipaya,Campus Univalle Tiquipaya,1200
+Apto_Centro_2,Monoambiente en Cala Cala,Hospital Clinico Viedma,1200
+Villa_Tiquipaya_1,Quinta con jardin en Tiquipaya,Campus Univalle Tiquipaya,1200
+Villa_Lujo_2,Quinta familiar en Cochabamba,Hospital Clinico Viedma,1200
+Hab_Compartida_4,Cama en condominio compartido de Equipetrol,Fexpocruz,1400
+Hab_Compartida_2,Cama en residencia compartida de Cala Cala,Cristo de la Concordia,1400
+Casa_Urbana_3,Casa con piscina en zona norte de Santa Cruz,Fexpocruz,1400
+Casa_Urbana_1,Casa familiar con patio en Cala Cala,Cristo de la Concordia,1400
+Villa_Lujo_1,Casaquinta para eventos en Santa Cruz,Fexpocruz,1400
+Apto_Centro_3,Departamento con piscina en Equipetrol,Fexpocruz,1400
+Hab_Privada_2,Habitacion privada cerca de Cala Cala,Cristo de la Concordia,1400
+Hab_Privada_4,Habitacion privada en condominio de Equipetrol,Fexpocruz,1400
+Apto_Centro_2,Monoambiente en Cala Cala,Cristo de la Concordia,1400
+Villa_Lujo_2,Quinta familiar en Cochabamba,Cristo de la Concordia,1400
+Villa_Lujo_4,Villa moderna con piscina en Santa Cruz,Fexpocruz,1400

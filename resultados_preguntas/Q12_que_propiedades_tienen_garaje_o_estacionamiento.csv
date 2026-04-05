@@ -1,15 +1,28 @@
 prop,nombre,tipoEstacionamiento
-Apto_Centro_2,Apartamento Moderno 2,Calle
-Apto_Centro_3,Apartamento Moderno 3,Calle
-Apto_Centro_4,Apartamento Moderno 4,Calle
-Apto_Centro_5,Apartamento Moderno 5,Calle
-Casa_Urbana_2,Casa Acogedora 2,GarajePrivado
-Casa_Urbana_3,Casa Acogedora 3,GarajePrivado
-Casa_Urbana_4,Casa Acogedora 4,GarajePrivado
-Casa_Urbana_5,Casa Acogedora 5,GarajePrivado
-Casa_Urbana_1,Hermosa Casa en Cochabamba,GarajePrivado
-Villa_Lujo_2,Villa Espectacular 2,GarajeMultiple
-Villa_Lujo_3,Villa Espectacular 3,GarajeMultiple
-Villa_Lujo_4,Villa Espectacular 4,GarajeMultiple
-Villa_Lujo_5,Villa Espectacular 5,GarajeMultiple
-Villa_Lujo_1,Villa Paraiso Santa Cruz,GarajeMultiple
+Casa_Achumani_1,Casa amplia con jardin en Achumani,GarajePrivado
+Casa_Urbana_5,Casa comoda en San Bernardo,GarajePrivado
+Casa_Urbana_3,Casa con piscina en zona norte de Santa Cruz,GarajePrivado
+Casa_Tiquipaya_1,Casa de descanso en Tiquipaya,GarajePrivado
+Casa_Urbana_2,Casa ejecutiva en Sopocachi Alto,GarajePrivado
+Casa_Urbana_1,Casa familiar con patio en Cala Cala,GarajePrivado
+Casa_Urubo_1,Casa moderna en Urubo,GarajePrivado
+Casa_Urbana_4,Casa patrimonial remodelada en Sucre,GarajePrivado
+Casa_SanRoque_1,Casa tarijena con galeria en San Roque,GarajePrivado
+Villa_Lujo_5,Casaquinta de alta capacidad en Tarija,GarajeMultiple
+Villa_SanRoque_1,Casaquinta en San Roque,GarajeMultiple
+Villa_Lujo_1,Casaquinta para eventos en Santa Cruz,GarajeMultiple
+Villa_CentroSucre_1,Casona privada para eventos en Sucre,GarajePrivado
+Apto_Centro_4,Departamento colonial en La Recoleta,Calle
+Apto_Centro_3,Departamento con piscina en Equipetrol,Calle
+Apto_Achumani_1,Departamento con vista en Achumani,GarajePrivado
+Apto_Centro_5,Departamento familiar en San Bernardo,Calle
+Apto_Tiquipaya_1,Departamento familiar en Tiquipaya,GarajePrivado
+Apto_SanRoque_1,Departamento funcional en San Roque,Calle
+Apto_Urubo_1,Loft con piscina en Urubo,GarajePrivado
+Apto_Centro_2,Monoambiente en Cala Cala,Calle
+Villa_Tiquipaya_1,Quinta con jardin en Tiquipaya,GarajeMultiple
+Villa_Lujo_2,Quinta familiar en Cochabamba,GarajeMultiple
+Villa_Achumani_1,Residencia con vistas en Achumani,GarajeMultiple
+Villa_Lujo_3,Residencia premium en La Paz,GarajeMultiple
+Villa_Lujo_4,Villa moderna con piscina en Santa Cruz,GarajeMultiple
+Villa_Urubo_1,Villa premium en Urubo,GarajeMultiple

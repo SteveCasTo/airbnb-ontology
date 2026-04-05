@@ -1,16 +1,28 @@
 prop,nombre,precio
-Hab_Compartida_4,Cama en Hostal 4,6.0
-Hab_Compartida_2,Cama en Hostal 2,9.0
-Hab_Compartida_1,Cama en Habitación Compartida Mochileros,10.0
-Hab_Compartida_5,Cama en Hostal 5,10.0
-Hab_Compartida_3,Cama en Hostal 3,12.0
-Hab_Privada_4,Habitacion Confort 4,15.0
-Hab_Privada_5,Habitacion Confort 5,18.0
-Hab_Privada_2,Habitacion Confort 2,22.0
-Hab_Privada_3,Habitacion Confort 3,25.0
-Hab_Privada_1,Habitación Privada Romántica,25.0
-Apto_Centro_4,Apartamento Moderno 4,35.0
-Apto_Centro_1,Apartamento Ejecutivo La Paz,40.0
-Casa_Urbana_5,Casa Acogedora 5,45.0
-Apto_Centro_2,Apartamento Moderno 2,50.0
-Apto_Centro_5,Apartamento Moderno 5,50.0
+Hab_Compartida_4,Cama en condominio compartido de Equipetrol,6.0
+Hab_Compartida_2,Cama en residencia compartida de Cala Cala,9.0
+Hab_Compartida_5,Cama en casona estudiantil de La Recoleta,10.0
+Hab_Compartida_1,Cama en hostel del centro de Tarija,10.0
+Hab_Compartida_Tiquipaya_1,Cama en casa compartida de Tiquipaya,11.0
+Hab_Compartida_3,Cama en casa compartida de Sopocachi,12.0
+Hab_Compartida_CentroSucre_1,Cama en hostal del centro de Sucre,12.0
+Hab_Compartida_SanRoque_1,Cama en residencial de San Roque,13.0
+Hab_Compartida_Achumani_1,Cama en residencia de Achumani,14.0
+Hab_Privada_4,Habitacion privada en condominio de Equipetrol,15.0
+Hab_Compartida_Urubo_1,Cama en residencia de Urubo,18.0
+Hab_Privada_5,Habitacion matrimonial en San Bernardo,18.0
+Hab_Privada_CentroSucre_1,Habitacion privada para estudiante en Sucre,20.0
+Hab_Privada_2,Habitacion privada cerca de Cala Cala,22.0
+Hab_Privada_1,Habitacion privada con patio en La Recoleta,25.0
+Hab_Privada_3,Suite privada en Sopocachi,25.0
+Hab_Privada_SanRoque_1,Habitacion privada en San Roque,26.0
+Hab_Privada_Tiquipaya_1,Habitacion privada con jardin en Tiquipaya,28.0
+Hab_Privada_Achumani_1,Habitacion privada en Achumani,32.0
+Apto_Centro_4,Departamento colonial en La Recoleta,35.0
+Apto_CentroSucre_1,Apartamento estudiantil en centro de Sucre,40.0
+Apto_Centro_1,Departamento ejecutivo en Sopocachi,40.0
+Casa_Urbana_5,Casa comoda en San Bernardo,45.0
+Hab_Privada_Urubo_1,Suite privada en Urubo,45.0
+Apto_SanRoque_1,Departamento funcional en San Roque,47.0
+Apto_Centro_5,Departamento familiar en San Bernardo,50.0
+Apto_Centro_2,Monoambiente en Cala Cala,50.0

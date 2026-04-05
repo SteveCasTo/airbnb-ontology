@@ -1,17 +1,22 @@
 prop,nombre
-Apto_Centro_2,Apartamento Moderno 2
-Apto_Centro_4,Apartamento Moderno 4
-Apto_Centro_5,Apartamento Moderno 5
-Hab_Compartida_2,Cama en Hostal 2
-Hab_Compartida_3,Cama en Hostal 3
-Casa_Urbana_4,Casa Acogedora 4
-Casa_Urbana_5,Casa Acogedora 5
-Hab_Privada_2,Habitacion Confort 2
-Hab_Privada_3,Habitacion Confort 3
-Hab_Privada_5,Habitacion Confort 5
-Hab_Privada_1,Habitación Privada Romántica
-Casa_Urbana_1,Hermosa Casa en Cochabamba
-Villa_Lujo_2,Villa Espectacular 2
-Villa_Lujo_3,Villa Espectacular 3
-Villa_Lujo_4,Villa Espectacular 4
-Villa_Lujo_1,Villa Paraiso Santa Cruz
+Apto_CentroSucre_1,Apartamento estudiantil en centro de Sucre
+Hab_Compartida_3,Cama en casa compartida de Sopocachi
+Hab_Compartida_CentroSucre_1,Cama en hostal del centro de Sucre
+Hab_Compartida_2,Cama en residencia compartida de Cala Cala
+Casa_Urbana_5,Casa comoda en San Bernardo
+Casa_Urbana_1,Casa familiar con patio en Cala Cala
+Casa_Urbana_4,Casa patrimonial remodelada en Sucre
+Villa_Lujo_1,Casaquinta para eventos en Santa Cruz
+Casa_CentroSucre_1,Casona patrimonial en centro de Sucre
+Villa_CentroSucre_1,Casona privada para eventos en Sucre
+Apto_Centro_4,Departamento colonial en La Recoleta
+Apto_Centro_5,Departamento familiar en San Bernardo
+Hab_Privada_5,Habitacion matrimonial en San Bernardo
+Hab_Privada_2,Habitacion privada cerca de Cala Cala
+Hab_Privada_1,Habitacion privada con patio en La Recoleta
+Hab_Privada_CentroSucre_1,Habitacion privada para estudiante en Sucre
+Apto_Centro_2,Monoambiente en Cala Cala
+Villa_Lujo_2,Quinta familiar en Cochabamba
+Villa_Lujo_3,Residencia premium en La Paz
+Hab_Privada_3,Suite privada en Sopocachi
+Villa_Lujo_4,Villa moderna con piscina en Santa Cruz

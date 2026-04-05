@@ -1,3 +1,9 @@
 prop,nombre,amenidadNombre,costo
-Casa_Urbana_1,Hermosa Casa en Cochabamba,EstacionamientoGratis,0.0
-Villa_Lujo_2,Villa Espectacular 2,EstacionamientoGratis,0.0
+Casa_Achumani_1,Casa amplia con jardin en Achumani,EstacionamientoGratis,0.0
+Casa_Urbana_1,Casa familiar con patio en Cala Cala,EstacionamientoGratis,0.0
+Villa_SanRoque_1,Casaquinta en San Roque,EstacionamientoGratis,0.0
+Villa_CentroSucre_1,Casona privada para eventos en Sucre,EstacionamientoGratis,0.0
+Apto_Tiquipaya_1,Departamento familiar en Tiquipaya,EstacionamientoGratis,0.0
+Villa_Tiquipaya_1,Quinta con jardin en Tiquipaya,EstacionamientoGratis,0.0
+Villa_Lujo_2,Quinta familiar en Cochabamba,EstacionamientoGratis,0.0
+Villa_Achumani_1,Residencia con vistas en Achumani,EstacionamientoGratis,0.0

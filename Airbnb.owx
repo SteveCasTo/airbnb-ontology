@@ -405,6 +405,159 @@
     <Declaration>
         <NamedIndividual IRI="#Zona_TARIJA"/>
     </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EspacioTrabajo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zona_LP_ACHUMANI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zona_CBBA_TIQUIPAYA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zona_SCZ_URUBO"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zona_SUCRE_CENTRO"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zona_TARIJA_SANROQUE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EstacionIrpavi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UnivalleTiquipaya"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BiocentroGuembe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Plaza25Mayo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MercadoCampesinoTarija"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GrupoEstudiantil"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ejecutivo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FamiliaReubicacion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ParejaEscapada"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AmigosCongreso"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PoliticaCorporativa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PoliticaResidencial"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PoliticaEventos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PoliticaEstudiantil"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PoliticaEscapada"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ViajeReubicacion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ViajeCongreso"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ViajePasantia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ViajeProyecto"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ViajeEscapada"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Apto_Achumani_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Apto_Tiquipaya_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Apto_Urubo_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Apto_CentroSucre_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Apto_SanRoque_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Casa_Achumani_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Casa_Tiquipaya_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Casa_Urubo_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Casa_CentroSucre_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Casa_SanRoque_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hab_Compartida_Achumani_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hab_Compartida_Tiquipaya_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hab_Compartida_Urubo_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hab_Compartida_CentroSucre_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hab_Compartida_SanRoque_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hab_Privada_Achumani_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hab_Privada_Tiquipaya_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hab_Privada_Urubo_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hab_Privada_CentroSucre_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hab_Privada_SanRoque_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Villa_Achumani_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Villa_Tiquipaya_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Villa_Urubo_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Villa_CentroSucre_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Villa_SanRoque_1"/>
+    </Declaration>
     <SubClassOf>
         <Class IRI="#AlojamientoCompleto"/>
         <Class IRI="#Propiedad"/>
@@ -1412,7 +1565,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroAdultos"/>
         <NamedIndividual IRI="#Amigos"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">7</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroMascotas"/>
@@ -1427,7 +1580,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#presupuestoNoche"/>
         <NamedIndividual IRI="#Amigos"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">240.5</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">130.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#tipoViajero"/>
@@ -1452,12 +1605,12 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#descripcionPropiedad"/>
         <NamedIndividual IRI="#Apto_Centro_1"/>
-        <Literal>Cómodo apartamento en el centro de la ciudad.</Literal>
+        <Literal>Departamento ejecutivo de un dormitorio en Sopocachi, cerca de cafes, oficinas y estaciones del teleferico.</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#nombrePropiedad"/>
         <NamedIndividual IRI="#Apto_Centro_1"/>
-        <Literal>Apartamento Ejecutivo La Paz</Literal>
+        <Literal>Departamento ejecutivo en Sopocachi</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroBanos"/>
@@ -1472,7 +1625,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroPiso"/>
         <NamedIndividual IRI="#Apto_Centro_1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">7</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#precioNoche"/>
@@ -1522,12 +1675,12 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#descripcionPropiedad"/>
         <NamedIndividual IRI="#Apto_Centro_2"/>
-        <Literal>Perfecto para vivir la ciudad.</Literal>
+        <Literal>Monoambiente amoblado en Cala Cala, practico para estadias de estudio o trabajo con buen acceso al transporte urbano.</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#nombrePropiedad"/>
         <NamedIndividual IRI="#Apto_Centro_2"/>
-        <Literal>Apartamento Moderno 2</Literal>
+        <Literal>Monoambiente en Cala Cala</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroBanos"/>
@@ -1542,7 +1695,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroPiso"/>
         <NamedIndividual IRI="#Apto_Centro_2"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">4</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#precioNoche"/>
@@ -1592,12 +1745,12 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#descripcionPropiedad"/>
         <NamedIndividual IRI="#Apto_Centro_3"/>
-        <Literal>Perfecto para vivir la ciudad.</Literal>
+        <Literal>Departamento de dos dormitorios en Equipetrol, con piscina del edificio y perfil adecuado para viajes cortos de trabajo.</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#nombrePropiedad"/>
         <NamedIndividual IRI="#Apto_Centro_3"/>
-        <Literal>Apartamento Moderno 3</Literal>
+        <Literal>Departamento con piscina en Equipetrol</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroBanos"/>
@@ -1612,7 +1765,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroPiso"/>
         <NamedIndividual IRI="#Apto_Centro_3"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">12</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#precioNoche"/>
@@ -1662,12 +1815,12 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#descripcionPropiedad"/>
         <NamedIndividual IRI="#Apto_Centro_4"/>
-        <Literal>Perfecto para vivir la ciudad.</Literal>
+        <Literal>Departamento tranquilo en La Recoleta, con cocina y espacio para estacionar, a poca distancia del centro historico de Sucre.</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#nombrePropiedad"/>
         <NamedIndividual IRI="#Apto_Centro_4"/>
-        <Literal>Apartamento Moderno 4</Literal>
+        <Literal>Departamento colonial en La Recoleta</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroBanos"/>
@@ -1682,7 +1835,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroPiso"/>
         <NamedIndividual IRI="#Apto_Centro_4"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">3</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#precioNoche"/>
@@ -1732,12 +1885,12 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#descripcionPropiedad"/>
         <NamedIndividual IRI="#Apto_Centro_5"/>
-        <Literal>Perfecto para vivir la ciudad.</Literal>
+        <Literal>Departamento amplio en San Bernardo, con buena ventilacion y distribucion comoda para grupos pequenos que visitan Tarija.</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#nombrePropiedad"/>
         <NamedIndividual IRI="#Apto_Centro_5"/>
-        <Literal>Apartamento Moderno 5</Literal>
+        <Literal>Departamento familiar en San Bernardo</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroBanos"/>
@@ -1752,7 +1905,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroPiso"/>
         <NamedIndividual IRI="#Apto_Centro_5"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">15</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">4</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#precioNoche"/>
@@ -1802,12 +1955,12 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#descripcionPropiedad"/>
         <NamedIndividual IRI="#Casa_Urbana_1"/>
-        <Literal>Una casa amplia ideal para familias.</Literal>
+        <Literal>Casa con patio, cocina y lavanderia en una zona residencial de Cochabamba, pensada para estadias familiares.</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#nombrePropiedad"/>
         <NamedIndividual IRI="#Casa_Urbana_1"/>
-        <Literal>Hermosa Casa en Cochabamba</Literal>
+        <Literal>Casa familiar con patio en Cala Cala</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroBanos"/>
@@ -1822,7 +1975,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroPlantas"/>
         <NamedIndividual IRI="#Casa_Urbana_1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#precioNoche"/>
@@ -1867,12 +2020,12 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#descripcionPropiedad"/>
         <NamedIndividual IRI="#Casa_Urbana_2"/>
-        <Literal>Una gran casa con todas las comodidades.</Literal>
+        <Literal>Casa amplia en Sopocachi Alto, funcional para viajes de trabajo y reuniones pequenas, con aire acondicionado y parqueo privado.</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#nombrePropiedad"/>
         <NamedIndividual IRI="#Casa_Urbana_2"/>
-        <Literal>Casa Acogedora 2</Literal>
+        <Literal>Casa ejecutiva en Sopocachi Alto</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroBanos"/>
@@ -1932,12 +2085,12 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#descripcionPropiedad"/>
         <NamedIndividual IRI="#Casa_Urbana_3"/>
-        <Literal>Una gran casa con todas las comodidades.</Literal>
+        <Literal>Casa de alquiler completo en la zona norte de Santa Cruz, con piscina y buen espacio para viajes familiares.</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#nombrePropiedad"/>
         <NamedIndividual IRI="#Casa_Urbana_3"/>
-        <Literal>Casa Acogedora 3</Literal>
+        <Literal>Casa con piscina en zona norte de Santa Cruz</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroBanos"/>
@@ -1952,7 +2105,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroPlantas"/>
         <NamedIndividual IRI="#Casa_Urbana_3"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#precioNoche"/>
@@ -1997,12 +2150,12 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#descripcionPropiedad"/>
         <NamedIndividual IRI="#Casa_Urbana_4"/>
-        <Literal>Una gran casa con todas las comodidades.</Literal>
+        <Literal>Casona remodelada en Sucre con cocina y garaje, apropiada para grupos de amigos que buscan una base centrica.</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#nombrePropiedad"/>
         <NamedIndividual IRI="#Casa_Urbana_4"/>
-        <Literal>Casa Acogedora 4</Literal>
+        <Literal>Casa patrimonial remodelada en Sucre</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroBanos"/>
@@ -2062,12 +2215,12 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#descripcionPropiedad"/>
         <NamedIndividual IRI="#Casa_Urbana_5"/>
-        <Literal>Una gran casa con todas las comodidades.</Literal>
+        <Literal>Casa comoda en Tarija con dos dormitorios, ideal para parejas o familias pequenas que valoran privacidad y ventilacion.</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#nombrePropiedad"/>
         <NamedIndividual IRI="#Casa_Urbana_5"/>
-        <Literal>Casa Acogedora 5</Literal>
+        <Literal>Casa comoda en San Bernardo</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroBanos"/>
@@ -2082,7 +2235,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroPlantas"/>
         <NamedIndividual IRI="#Casa_Urbana_5"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#precioNoche"/>
@@ -2132,7 +2285,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#distanciaMetros"/>
         <NamedIndividual IRI="#CristoRedentor"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1500</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1400</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#nombrePunto"/>
@@ -2147,12 +2300,12 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroAdultos"/>
         <NamedIndividual IRI="#Dual"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroMascotas"/>
         <NamedIndividual IRI="#Dual"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroNinos"/>
@@ -2162,7 +2315,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#presupuestoNoche"/>
         <NamedIndividual IRI="#Dual"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">70</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">75.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#tipoViajero"/>
@@ -2172,12 +2325,12 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#distanciaMetros"/>
         <NamedIndividual IRI="#ExpoCruz"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2000</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1400</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#nombrePunto"/>
         <NamedIndividual IRI="#ExpoCruz"/>
-        <Literal>Expo Cruz</Literal>
+        <Literal>Fexpocruz</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#tipoPunto"/>
@@ -2192,17 +2345,17 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroMascotas"/>
         <NamedIndividual IRI="#Familiar"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroNinos"/>
         <NamedIndividual IRI="#Familiar"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">3</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#presupuestoNoche"/>
         <NamedIndividual IRI="#Familiar"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">180</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">110.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#tipoViajero"/>
@@ -2227,7 +2380,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#descripcionPropiedad"/>
         <NamedIndividual IRI="#Hab_Compartida_1"/>
-        <Literal>Ideal para viajeros solos que buscan conocer gente.</Literal>
+        <Literal>Cama en dormitorio compartido del centro de Tarija, adecuada para viajeros solos que priorizan precio y ubicacion.</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#dimensionesHabitacion"/>
@@ -2237,7 +2390,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#nombrePropiedad"/>
         <NamedIndividual IRI="#Hab_Compartida_1"/>
-        <Literal>Cama en Habitación Compartida Mochileros</Literal>
+        <Literal>Cama en hostel del centro de Tarija</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroBanos"/>
@@ -2257,7 +2410,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroHabitacion"/>
         <NamedIndividual IRI="#Hab_Compartida_1"/>
-        <Literal>Dorm3</Literal>
+        <Literal>T-103</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#precioNoche"/>
@@ -2292,7 +2445,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#descripcionPropiedad"/>
         <NamedIndividual IRI="#Hab_Compartida_2"/>
-        <Literal>Lugar super economico y amigable.</Literal>
+        <Literal>Cama en residencia compartida de Cala Cala, util para estudiantes y personas que pasan temporadas cortas en Cochabamba.</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#dimensionesHabitacion"/>
@@ -2302,7 +2455,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#nombrePropiedad"/>
         <NamedIndividual IRI="#Hab_Compartida_2"/>
-        <Literal>Cama en Hostal 2</Literal>
+        <Literal>Cama en residencia compartida de Cala Cala</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroBanos"/>
@@ -2322,7 +2475,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroHabitacion"/>
         <NamedIndividual IRI="#Hab_Compartida_2"/>
-        <Literal>Dorm 2</Literal>
+        <Literal>C-204</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#precioNoche"/>
@@ -2357,7 +2510,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#descripcionPropiedad"/>
         <NamedIndividual IRI="#Hab_Compartida_3"/>
-        <Literal>Lugar super economico y amigable.</Literal>
+        <Literal>Cama en casa compartida de Sopocachi con cocina y wifi, pensada para estudiantes o viajeros jovenes.</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#dimensionesHabitacion"/>
@@ -2367,7 +2520,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#nombrePropiedad"/>
         <NamedIndividual IRI="#Hab_Compartida_3"/>
-        <Literal>Cama en Hostal 3</Literal>
+        <Literal>Cama en casa compartida de Sopocachi</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroBanos"/>
@@ -2387,7 +2540,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroHabitacion"/>
         <NamedIndividual IRI="#Hab_Compartida_3"/>
-        <Literal>Dorm 3</Literal>
+        <Literal>S-3B</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#precioNoche"/>
@@ -2422,7 +2575,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#descripcionPropiedad"/>
         <NamedIndividual IRI="#Hab_Compartida_4"/>
-        <Literal>Lugar super economico y amigable.</Literal>
+        <Literal>Cama en condominio compartido de Equipetrol, con acceso a piscina y parqueo en una zona activa de Santa Cruz.</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#dimensionesHabitacion"/>
@@ -2432,7 +2585,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#nombrePropiedad"/>
         <NamedIndividual IRI="#Hab_Compartida_4"/>
-        <Literal>Cama en Hostal 4</Literal>
+        <Literal>Cama en condominio compartido de Equipetrol</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroBanos"/>
@@ -2452,7 +2605,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroHabitacion"/>
         <NamedIndividual IRI="#Hab_Compartida_4"/>
-        <Literal>Dorm 4</Literal>
+        <Literal>E-405</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#precioNoche"/>
@@ -2487,7 +2640,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#descripcionPropiedad"/>
         <NamedIndividual IRI="#Hab_Compartida_5"/>
-        <Literal>Lugar super economico y amigable.</Literal>
+        <Literal>Cama en casona estudiantil de La Recoleta, orientada a viajeros con presupuesto ajustado que valoran cocina y wifi.</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#dimensionesHabitacion"/>
@@ -2497,7 +2650,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#nombrePropiedad"/>
         <NamedIndividual IRI="#Hab_Compartida_5"/>
-        <Literal>Cama en Hostal 5</Literal>
+        <Literal>Cama en casona estudiantil de La Recoleta</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroBanos"/>
@@ -2517,7 +2670,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroHabitacion"/>
         <NamedIndividual IRI="#Hab_Compartida_5"/>
-        <Literal>Dorm 5</Literal>
+        <Literal>R-12</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#precioNoche"/>
@@ -2547,7 +2700,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#descripcionPropiedad"/>
         <NamedIndividual IRI="#Hab_Privada_1"/>
-        <Literal>Una habitación con baño privado ideal para parejas.</Literal>
+        <Literal>Habitacion privada con bano en suite en una casona de La Recoleta, pensada para parejas que quieren caminar por el centro de Sucre.</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#dimensionesHabitacion"/>
@@ -2557,7 +2710,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#nombrePropiedad"/>
         <NamedIndividual IRI="#Hab_Privada_1"/>
-        <Literal>Habitación Privada Romántica</Literal>
+        <Literal>Habitacion privada con patio en La Recoleta</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroBanos"/>
@@ -2572,7 +2725,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroHabitacion"/>
         <NamedIndividual IRI="#Hab_Privada_1"/>
-        <Literal>2A</Literal>
+        <Literal>R-07</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#precioNoche"/>
@@ -2607,7 +2760,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#descripcionPropiedad"/>
         <NamedIndividual IRI="#Hab_Privada_2"/>
-        <Literal>Descanso asegurado y tranquilidad.</Literal>
+        <Literal>Habitacion privada en casa de familia cerca de Cala Cala, apropiada para una persona que busca tranquilidad y desayuno.</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#dimensionesHabitacion"/>
@@ -2617,7 +2770,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#nombrePropiedad"/>
         <NamedIndividual IRI="#Hab_Privada_2"/>
-        <Literal>Habitacion Confort 2</Literal>
+        <Literal>Habitacion privada cerca de Cala Cala</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroBanos"/>
@@ -2632,7 +2785,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroHabitacion"/>
         <NamedIndividual IRI="#Hab_Privada_2"/>
-        <Literal>Hab 2</Literal>
+        <Literal>C-12</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#precioNoche"/>
@@ -2667,7 +2820,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#descripcionPropiedad"/>
         <NamedIndividual IRI="#Hab_Privada_3"/>
-        <Literal>Descanso asegurado y tranquilidad.</Literal>
+        <Literal>Suite privada en Sopocachi con aire acondicionado y wifi, adecuada para estadias urbanas de pareja o trabajo remoto.</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#dimensionesHabitacion"/>
@@ -2677,7 +2830,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#nombrePropiedad"/>
         <NamedIndividual IRI="#Hab_Privada_3"/>
-        <Literal>Habitacion Confort 3</Literal>
+        <Literal>Suite privada en Sopocachi</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroBanos"/>
@@ -2692,7 +2845,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroHabitacion"/>
         <NamedIndividual IRI="#Hab_Privada_3"/>
-        <Literal>Hab 3</Literal>
+        <Literal>S-08</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#precioNoche"/>
@@ -2727,7 +2880,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#descripcionPropiedad"/>
         <NamedIndividual IRI="#Hab_Privada_4"/>
-        <Literal>Descanso asegurado y tranquilidad.</Literal>
+        <Literal>Habitacion privada en condominio de Equipetrol con acceso a piscina y parqueo, util para visitas cortas a Santa Cruz.</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#dimensionesHabitacion"/>
@@ -2737,7 +2890,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#nombrePropiedad"/>
         <NamedIndividual IRI="#Hab_Privada_4"/>
-        <Literal>Habitacion Confort 4</Literal>
+        <Literal>Habitacion privada en condominio de Equipetrol</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroBanos"/>
@@ -2752,7 +2905,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroHabitacion"/>
         <NamedIndividual IRI="#Hab_Privada_4"/>
-        <Literal>Hab 4</Literal>
+        <Literal>E-14</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#precioNoche"/>
@@ -2787,7 +2940,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#descripcionPropiedad"/>
         <NamedIndividual IRI="#Hab_Privada_5"/>
-        <Literal>Descanso asegurado y tranquilidad.</Literal>
+        <Literal>Habitacion matrimonial en San Bernardo, comoda para parejas que prefieren una zona residencial de Tarija.</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#dimensionesHabitacion"/>
@@ -2797,7 +2950,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#nombrePropiedad"/>
         <NamedIndividual IRI="#Hab_Privada_5"/>
-        <Literal>Habitacion Confort 5</Literal>
+        <Literal>Habitacion matrimonial en San Bernardo</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroBanos"/>
@@ -2812,7 +2965,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroHabitacion"/>
         <NamedIndividual IRI="#Hab_Privada_5"/>
-        <Literal>Hab 5</Literal>
+        <Literal>T-03</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#precioNoche"/>
@@ -2837,12 +2990,12 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#distanciaMetros"/>
         <NamedIndividual IRI="#HospitalCentral"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">800</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1200</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#nombrePunto"/>
         <NamedIndividual IRI="#HospitalCentral"/>
-        <Literal>Hospital Central</Literal>
+        <Literal>Hospital Clinico Viedma</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#tipoPunto"/>
@@ -2867,7 +3020,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#presupuestoNoche"/>
         <NamedIndividual IRI="#Individual"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">200</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">30.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#tipoViajero"/>
@@ -2892,7 +3045,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#presupuestoNoche"/>
         <NamedIndividual IRI="#Pareja"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">150</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">55.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#tipoViajero"/>
@@ -3117,7 +3270,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#duracionEstadia"/>
         <NamedIndividual IRI="#ViajeEstudios"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">30</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">45</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#modalidadTrabajo"/>
@@ -3132,7 +3285,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#duracionEstadia"/>
         <NamedIndividual IRI="#ViajeFamiliar"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">7</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">6</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#modalidadTrabajo"/>
@@ -3142,12 +3295,12 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#tipoPropositoViaje"/>
         <NamedIndividual IRI="#ViajeFamiliar"/>
-        <Literal>EventoEspecial</Literal>
+        <Literal>Vacacional</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#duracionEstadia"/>
         <NamedIndividual IRI="#ViajeSalud"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">14</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#modalidadTrabajo"/>
@@ -3162,7 +3315,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#duracionEstadia"/>
         <NamedIndividual IRI="#ViajeTrabajo"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">4</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#modalidadTrabajo"/>
@@ -3212,12 +3365,12 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#descripcionPropiedad"/>
         <NamedIndividual IRI="#Villa_Lujo_1"/>
-        <Literal>Lujosa villa para eventos y grandes grupos.</Literal>
+        <Literal>Casaquinta amplia con piscina y parqueo multiple, pensada para reuniones privadas en la zona norte de Santa Cruz.</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#nombrePropiedad"/>
         <NamedIndividual IRI="#Villa_Lujo_1"/>
-        <Literal>Villa Paraiso Santa Cruz</Literal>
+        <Literal>Casaquinta para eventos en Santa Cruz</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroBanos"/>
@@ -3272,12 +3425,12 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#descripcionPropiedad"/>
         <NamedIndividual IRI="#Villa_Lujo_2"/>
-        <Literal>Privacidad y lujo para grandes grupos.</Literal>
+        <Literal>Propiedad amplia con areas verdes, desayuno y lavanderia, orientada a reuniones familiares en Cochabamba.</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#nombrePropiedad"/>
         <NamedIndividual IRI="#Villa_Lujo_2"/>
-        <Literal>Villa Espectacular 2</Literal>
+        <Literal>Quinta familiar en Cochabamba</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroBanos"/>
@@ -3332,12 +3485,12 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#descripcionPropiedad"/>
         <NamedIndividual IRI="#Villa_Lujo_3"/>
-        <Literal>Privacidad y lujo para grandes grupos.</Literal>
+        <Literal>Residencia premium de gran capacidad en La Paz, adecuada para grupos corporativos o estadias privadas con cocina equipada.</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#nombrePropiedad"/>
         <NamedIndividual IRI="#Villa_Lujo_3"/>
-        <Literal>Villa Espectacular 3</Literal>
+        <Literal>Residencia premium en La Paz</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroBanos"/>
@@ -3392,12 +3545,12 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#descripcionPropiedad"/>
         <NamedIndividual IRI="#Villa_Lujo_4"/>
-        <Literal>Privacidad y lujo para grandes grupos.</Literal>
+        <Literal>Villa moderna de alquiler completo para grupos de amigos que buscan privacidad y piscina en Santa Cruz.</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#nombrePropiedad"/>
         <NamedIndividual IRI="#Villa_Lujo_4"/>
-        <Literal>Villa Espectacular 4</Literal>
+        <Literal>Villa moderna con piscina en Santa Cruz</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroBanos"/>
@@ -3452,12 +3605,12 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#descripcionPropiedad"/>
         <NamedIndividual IRI="#Villa_Lujo_5"/>
-        <Literal>Privacidad y lujo para grandes grupos.</Literal>
+        <Literal>Casaquinta de alta capacidad en Tarija, adecuada para eventos privados y grupos familiares numerosos.</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#nombrePropiedad"/>
         <NamedIndividual IRI="#Villa_Lujo_5"/>
-        <Literal>Villa Espectacular 5</Literal>
+        <Literal>Casaquinta de alta capacidad en Tarija</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#numeroBanos"/>
@@ -3592,12 +3745,12 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#distanciaMetros"/>
         <NamedIndividual IRI="#TerminalCentral"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">650</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">900</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#nombrePunto"/>
         <NamedIndividual IRI="#TerminalCentral"/>
-        <Literal>Terminal Central</Literal>
+        <Literal>Terminal de Buses de Tarija</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#tipoPunto"/>
@@ -3607,12 +3760,12 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#distanciaMetros"/>
         <NamedIndividual IRI="#UniversidadCentro"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">900</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1100</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#nombrePunto"/>
         <NamedIndividual IRI="#UniversidadCentro"/>
-        <Literal>Universidad del Centro</Literal>
+        <Literal>Universidad Mayor de San Andres</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#tipoPunto"/>
@@ -3627,12 +3780,12 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#densidadUrbana"/>
         <NamedIndividual IRI="#Zona_CBBA"/>
-        <Literal>Alta</Literal>
+        <Literal>Media</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#nombreZona"/>
         <NamedIndividual IRI="#Zona_CBBA"/>
-        <Literal>Cochabamba</Literal>
+        <Literal>Cala Cala</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#pais"/>
@@ -3652,12 +3805,12 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#densidadUrbana"/>
         <NamedIndividual IRI="#Zona_LP"/>
-        <Literal>Rural</Literal>
+        <Literal>Alta</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#nombreZona"/>
         <NamedIndividual IRI="#Zona_LP"/>
-        <Literal>El Alto</Literal>
+        <Literal>Sopocachi</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#pais"/>
@@ -3667,24 +3820,24 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#tipoZona"/>
         <NamedIndividual IRI="#Zona_LP"/>
-        <Literal>Rural</Literal>
+        <Literal>Urbana</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#ciudad"/>
-        <NamedIndividual IRI="#Zona_SCZ"/>
-        <Literal>Santa Cruz</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#densidadUrbana"/>
-        <NamedIndividual IRI="#Zona_SCZ"/>
-        <Literal>MuyAlta</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#nombreZona"/>
         <NamedIndividual IRI="#Zona_SCZ"/>
         <Literal>Santa Cruz de la Sierra</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#densidadUrbana"/>
+        <NamedIndividual IRI="#Zona_SCZ"/>
+        <Literal>Alta</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreZona"/>
+        <NamedIndividual IRI="#Zona_SCZ"/>
+        <Literal>Equipetrol</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#pais"/>
         <NamedIndividual IRI="#Zona_SCZ"/>
         <Literal>Bolivia</Literal>
@@ -3692,22 +3845,22 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#tipoZona"/>
         <NamedIndividual IRI="#Zona_SCZ"/>
-        <Literal>Montana</Literal>
+        <Literal>Urbana</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#ciudad"/>
         <NamedIndividual IRI="#Zona_SUCRE"/>
-        <Literal>Chuquisaca</Literal>
+        <Literal>Sucre</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#densidadUrbana"/>
         <NamedIndividual IRI="#Zona_SUCRE"/>
-        <Literal>Baja</Literal>
+        <Literal>Media</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#nombreZona"/>
         <NamedIndividual IRI="#Zona_SUCRE"/>
-        <Literal>Sucre</Literal>
+        <Literal>La Recoleta</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#pais"/>
@@ -3732,7 +3885,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#nombreZona"/>
         <NamedIndividual IRI="#Zona_TARIJA"/>
-        <Literal>Trinidad</Literal>
+        <Literal>San Bernardo</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#pais"/>
@@ -3744,6 +3897,3155 @@
         <NamedIndividual IRI="#Zona_TARIJA"/>
         <Literal>Urbana</Literal>
     </DataPropertyAssertion>
+    <ClassAssertion>
+        <Class IRI="#Amenidad"/>
+        <NamedIndividual IRI="#EspacioTrabajo"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#categoriaAmenidad"/>
+        <NamedIndividual IRI="#EspacioTrabajo"/>
+        <Literal>TrabajoRemoto</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#costoAdicional"/>
+        <NamedIndividual IRI="#EspacioTrabajo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#disponibilidad"/>
+        <NamedIndividual IRI="#EspacioTrabajo"/>
+        <Literal>Permanente</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreAmenidad"/>
+        <NamedIndividual IRI="#EspacioTrabajo"/>
+        <Literal>EspacioTrabajo</Literal>
+    </DataPropertyAssertion>
+    <ClassAssertion>
+        <Class IRI="#ZonaGeografica"/>
+        <NamedIndividual IRI="#Zona_LP_ACHUMANI"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ciudad"/>
+        <NamedIndividual IRI="#Zona_LP_ACHUMANI"/>
+        <Literal>La Paz</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#densidadUrbana"/>
+        <NamedIndividual IRI="#Zona_LP_ACHUMANI"/>
+        <Literal>Media</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreZona"/>
+        <NamedIndividual IRI="#Zona_LP_ACHUMANI"/>
+        <Literal>Achumani</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#pais"/>
+        <NamedIndividual IRI="#Zona_LP_ACHUMANI"/>
+        <Literal>Bolivia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoZona"/>
+        <NamedIndividual IRI="#Zona_LP_ACHUMANI"/>
+        <Literal>Urbana</Literal>
+    </DataPropertyAssertion>
+    <ClassAssertion>
+        <Class IRI="#ZonaGeografica"/>
+        <NamedIndividual IRI="#Zona_CBBA_TIQUIPAYA"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ciudad"/>
+        <NamedIndividual IRI="#Zona_CBBA_TIQUIPAYA"/>
+        <Literal>Cochabamba</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#densidadUrbana"/>
+        <NamedIndividual IRI="#Zona_CBBA_TIQUIPAYA"/>
+        <Literal>Baja</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreZona"/>
+        <NamedIndividual IRI="#Zona_CBBA_TIQUIPAYA"/>
+        <Literal>Tiquipaya</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#pais"/>
+        <NamedIndividual IRI="#Zona_CBBA_TIQUIPAYA"/>
+        <Literal>Bolivia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoZona"/>
+        <NamedIndividual IRI="#Zona_CBBA_TIQUIPAYA"/>
+        <Literal>Rural</Literal>
+    </DataPropertyAssertion>
+    <ClassAssertion>
+        <Class IRI="#ZonaGeografica"/>
+        <NamedIndividual IRI="#Zona_SCZ_URUBO"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ciudad"/>
+        <NamedIndividual IRI="#Zona_SCZ_URUBO"/>
+        <Literal>Santa Cruz de la Sierra</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#densidadUrbana"/>
+        <NamedIndividual IRI="#Zona_SCZ_URUBO"/>
+        <Literal>Media</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreZona"/>
+        <NamedIndividual IRI="#Zona_SCZ_URUBO"/>
+        <Literal>Urubo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#pais"/>
+        <NamedIndividual IRI="#Zona_SCZ_URUBO"/>
+        <Literal>Bolivia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoZona"/>
+        <NamedIndividual IRI="#Zona_SCZ_URUBO"/>
+        <Literal>Urbana</Literal>
+    </DataPropertyAssertion>
+    <ClassAssertion>
+        <Class IRI="#ZonaGeografica"/>
+        <NamedIndividual IRI="#Zona_SUCRE_CENTRO"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ciudad"/>
+        <NamedIndividual IRI="#Zona_SUCRE_CENTRO"/>
+        <Literal>Sucre</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#densidadUrbana"/>
+        <NamedIndividual IRI="#Zona_SUCRE_CENTRO"/>
+        <Literal>Alta</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreZona"/>
+        <NamedIndividual IRI="#Zona_SUCRE_CENTRO"/>
+        <Literal>Centro Historico</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#pais"/>
+        <NamedIndividual IRI="#Zona_SUCRE_CENTRO"/>
+        <Literal>Bolivia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoZona"/>
+        <NamedIndividual IRI="#Zona_SUCRE_CENTRO"/>
+        <Literal>Urbana</Literal>
+    </DataPropertyAssertion>
+    <ClassAssertion>
+        <Class IRI="#ZonaGeografica"/>
+        <NamedIndividual IRI="#Zona_TARIJA_SANROQUE"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ciudad"/>
+        <NamedIndividual IRI="#Zona_TARIJA_SANROQUE"/>
+        <Literal>Tarija</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#densidadUrbana"/>
+        <NamedIndividual IRI="#Zona_TARIJA_SANROQUE"/>
+        <Literal>Media</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombreZona"/>
+        <NamedIndividual IRI="#Zona_TARIJA_SANROQUE"/>
+        <Literal>San Roque</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#pais"/>
+        <NamedIndividual IRI="#Zona_TARIJA_SANROQUE"/>
+        <Literal>Bolivia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoZona"/>
+        <NamedIndividual IRI="#Zona_TARIJA_SANROQUE"/>
+        <Literal>Urbana</Literal>
+    </DataPropertyAssertion>
+    <ClassAssertion>
+        <Class IRI="#PuntoInteres"/>
+        <NamedIndividual IRI="#EstacionIrpavi"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#distanciaMetros"/>
+        <NamedIndividual IRI="#EstacionIrpavi"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">900</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombrePunto"/>
+        <NamedIndividual IRI="#EstacionIrpavi"/>
+        <Literal>Estacion Irpavi del Teleferico</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoPunto"/>
+        <NamedIndividual IRI="#EstacionIrpavi"/>
+        <Literal>Transporte</Literal>
+    </DataPropertyAssertion>
+    <ClassAssertion>
+        <Class IRI="#PuntoInteres"/>
+        <NamedIndividual IRI="#UnivalleTiquipaya"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#distanciaMetros"/>
+        <NamedIndividual IRI="#UnivalleTiquipaya"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1200</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombrePunto"/>
+        <NamedIndividual IRI="#UnivalleTiquipaya"/>
+        <Literal>Campus Univalle Tiquipaya</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoPunto"/>
+        <NamedIndividual IRI="#UnivalleTiquipaya"/>
+        <Literal>Educacion</Literal>
+    </DataPropertyAssertion>
+    <ClassAssertion>
+        <Class IRI="#PuntoInteres"/>
+        <NamedIndividual IRI="#BiocentroGuembe"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#distanciaMetros"/>
+        <NamedIndividual IRI="#BiocentroGuembe"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1700</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombrePunto"/>
+        <NamedIndividual IRI="#BiocentroGuembe"/>
+        <Literal>Biocentro Guembe</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoPunto"/>
+        <NamedIndividual IRI="#BiocentroGuembe"/>
+        <Literal>Ocio</Literal>
+    </DataPropertyAssertion>
+    <ClassAssertion>
+        <Class IRI="#PuntoInteres"/>
+        <NamedIndividual IRI="#Plaza25Mayo"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#distanciaMetros"/>
+        <NamedIndividual IRI="#Plaza25Mayo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">450</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombrePunto"/>
+        <NamedIndividual IRI="#Plaza25Mayo"/>
+        <Literal>Plaza 25 de Mayo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoPunto"/>
+        <NamedIndividual IRI="#Plaza25Mayo"/>
+        <Literal>Turismo</Literal>
+    </DataPropertyAssertion>
+    <ClassAssertion>
+        <Class IRI="#PuntoInteres"/>
+        <NamedIndividual IRI="#MercadoCampesinoTarija"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#distanciaMetros"/>
+        <NamedIndividual IRI="#MercadoCampesinoTarija"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">700</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombrePunto"/>
+        <NamedIndividual IRI="#MercadoCampesinoTarija"/>
+        <Literal>Mercado Campesino de Tarija</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoPunto"/>
+        <NamedIndividual IRI="#MercadoCampesinoTarija"/>
+        <Literal>Comercio</Literal>
+    </DataPropertyAssertion>
+    <ClassAssertion>
+        <Class IRI="#PerfilHuesped"/>
+        <NamedIndividual IRI="#GrupoEstudiantil"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tienePropositoViaje"/>
+        <NamedIndividual IRI="#GrupoEstudiantil"/>
+        <NamedIndividual IRI="#ViajePasantia"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroAdultos"/>
+        <NamedIndividual IRI="#GrupoEstudiantil"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroMascotas"/>
+        <NamedIndividual IRI="#GrupoEstudiantil"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroNinos"/>
+        <NamedIndividual IRI="#GrupoEstudiantil"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#presupuestoNoche"/>
+        <NamedIndividual IRI="#GrupoEstudiantil"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">22.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoViajero"/>
+        <NamedIndividual IRI="#GrupoEstudiantil"/>
+        <Literal>GrupoEstudiantil</Literal>
+    </DataPropertyAssertion>
+    <ClassAssertion>
+        <Class IRI="#PerfilHuesped"/>
+        <NamedIndividual IRI="#Ejecutivo"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tienePropositoViaje"/>
+        <NamedIndividual IRI="#Ejecutivo"/>
+        <NamedIndividual IRI="#ViajeProyecto"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroAdultos"/>
+        <NamedIndividual IRI="#Ejecutivo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroMascotas"/>
+        <NamedIndividual IRI="#Ejecutivo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroNinos"/>
+        <NamedIndividual IRI="#Ejecutivo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#presupuestoNoche"/>
+        <NamedIndividual IRI="#Ejecutivo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">85.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoViajero"/>
+        <NamedIndividual IRI="#Ejecutivo"/>
+        <Literal>Negocios</Literal>
+    </DataPropertyAssertion>
+    <ClassAssertion>
+        <Class IRI="#PerfilHuesped"/>
+        <NamedIndividual IRI="#FamiliaReubicacion"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tienePropositoViaje"/>
+        <NamedIndividual IRI="#FamiliaReubicacion"/>
+        <NamedIndividual IRI="#ViajeReubicacion"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroAdultos"/>
+        <NamedIndividual IRI="#FamiliaReubicacion"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroMascotas"/>
+        <NamedIndividual IRI="#FamiliaReubicacion"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroNinos"/>
+        <NamedIndividual IRI="#FamiliaReubicacion"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#presupuestoNoche"/>
+        <NamedIndividual IRI="#FamiliaReubicacion"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">95.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoViajero"/>
+        <NamedIndividual IRI="#FamiliaReubicacion"/>
+        <Literal>Familia</Literal>
+    </DataPropertyAssertion>
+    <ClassAssertion>
+        <Class IRI="#PerfilHuesped"/>
+        <NamedIndividual IRI="#ParejaEscapada"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tienePropositoViaje"/>
+        <NamedIndividual IRI="#ParejaEscapada"/>
+        <NamedIndividual IRI="#ViajeEscapada"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroAdultos"/>
+        <NamedIndividual IRI="#ParejaEscapada"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroMascotas"/>
+        <NamedIndividual IRI="#ParejaEscapada"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroNinos"/>
+        <NamedIndividual IRI="#ParejaEscapada"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#presupuestoNoche"/>
+        <NamedIndividual IRI="#ParejaEscapada"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">70.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoViajero"/>
+        <NamedIndividual IRI="#ParejaEscapada"/>
+        <Literal>Pareja</Literal>
+    </DataPropertyAssertion>
+    <ClassAssertion>
+        <Class IRI="#PerfilHuesped"/>
+        <NamedIndividual IRI="#AmigosCongreso"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tienePropositoViaje"/>
+        <NamedIndividual IRI="#AmigosCongreso"/>
+        <NamedIndividual IRI="#ViajeCongreso"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroAdultos"/>
+        <NamedIndividual IRI="#AmigosCongreso"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroMascotas"/>
+        <NamedIndividual IRI="#AmigosCongreso"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroNinos"/>
+        <NamedIndividual IRI="#AmigosCongreso"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#presupuestoNoche"/>
+        <NamedIndividual IRI="#AmigosCongreso"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">80.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoViajero"/>
+        <NamedIndividual IRI="#AmigosCongreso"/>
+        <Literal>GrupoAmigos</Literal>
+    </DataPropertyAssertion>
+    <ClassAssertion>
+        <Class IRI="#Politica"/>
+        <NamedIndividual IRI="#PoliticaCorporativa"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#disponibleInmediatamente"/>
+        <NamedIndividual IRI="#PoliticaCorporativa"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#edadMinimaHuesped"/>
+        <NamedIndividual IRI="#PoliticaCorporativa"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">21</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maximoNoches"/>
+        <NamedIndividual IRI="#PoliticaCorporativa"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">45</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#minimoNoches"/>
+        <NamedIndividual IRI="#PoliticaCorporativa"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#reglaCigarrillos"/>
+        <NamedIndividual IRI="#PoliticaCorporativa"/>
+        <Literal>Prohibido</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#reglaMascotas"/>
+        <NamedIndividual IRI="#PoliticaCorporativa"/>
+        <Literal>Prohibido</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoCancelacion"/>
+        <NamedIndividual IRI="#PoliticaCorporativa"/>
+        <Literal>Moderada</Literal>
+    </DataPropertyAssertion>
+    <ClassAssertion>
+        <Class IRI="#Politica"/>
+        <NamedIndividual IRI="#PoliticaResidencial"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#disponibleInmediatamente"/>
+        <NamedIndividual IRI="#PoliticaResidencial"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#edadMinimaHuesped"/>
+        <NamedIndividual IRI="#PoliticaResidencial"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">18</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maximoNoches"/>
+        <NamedIndividual IRI="#PoliticaResidencial"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">180</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#minimoNoches"/>
+        <NamedIndividual IRI="#PoliticaResidencial"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#reglaCigarrillos"/>
+        <NamedIndividual IRI="#PoliticaResidencial"/>
+        <Literal>SoloExterior</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#reglaMascotas"/>
+        <NamedIndividual IRI="#PoliticaResidencial"/>
+        <Literal>Permitido</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoCancelacion"/>
+        <NamedIndividual IRI="#PoliticaResidencial"/>
+        <Literal>Flexible</Literal>
+    </DataPropertyAssertion>
+    <ClassAssertion>
+        <Class IRI="#Politica"/>
+        <NamedIndividual IRI="#PoliticaEventos"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#disponibleInmediatamente"/>
+        <NamedIndividual IRI="#PoliticaEventos"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#edadMinimaHuesped"/>
+        <NamedIndividual IRI="#PoliticaEventos"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maximoNoches"/>
+        <NamedIndividual IRI="#PoliticaEventos"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#minimoNoches"/>
+        <NamedIndividual IRI="#PoliticaEventos"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#reglaCigarrillos"/>
+        <NamedIndividual IRI="#PoliticaEventos"/>
+        <Literal>Prohibido</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#reglaMascotas"/>
+        <NamedIndividual IRI="#PoliticaEventos"/>
+        <Literal>Prohibido</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoCancelacion"/>
+        <NamedIndividual IRI="#PoliticaEventos"/>
+        <Literal>Estricta</Literal>
+    </DataPropertyAssertion>
+    <ClassAssertion>
+        <Class IRI="#Politica"/>
+        <NamedIndividual IRI="#PoliticaEstudiantil"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#disponibleInmediatamente"/>
+        <NamedIndividual IRI="#PoliticaEstudiantil"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#edadMinimaHuesped"/>
+        <NamedIndividual IRI="#PoliticaEstudiantil"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">18</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maximoNoches"/>
+        <NamedIndividual IRI="#PoliticaEstudiantil"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">120</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#minimoNoches"/>
+        <NamedIndividual IRI="#PoliticaEstudiantil"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#reglaCigarrillos"/>
+        <NamedIndividual IRI="#PoliticaEstudiantil"/>
+        <Literal>Prohibido</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#reglaMascotas"/>
+        <NamedIndividual IRI="#PoliticaEstudiantil"/>
+        <Literal>Prohibido</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoCancelacion"/>
+        <NamedIndividual IRI="#PoliticaEstudiantil"/>
+        <Literal>Moderada</Literal>
+    </DataPropertyAssertion>
+    <ClassAssertion>
+        <Class IRI="#Politica"/>
+        <NamedIndividual IRI="#PoliticaEscapada"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#disponibleInmediatamente"/>
+        <NamedIndividual IRI="#PoliticaEscapada"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#edadMinimaHuesped"/>
+        <NamedIndividual IRI="#PoliticaEscapada"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">18</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maximoNoches"/>
+        <NamedIndividual IRI="#PoliticaEscapada"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">14</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#minimoNoches"/>
+        <NamedIndividual IRI="#PoliticaEscapada"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#reglaCigarrillos"/>
+        <NamedIndividual IRI="#PoliticaEscapada"/>
+        <Literal>SoloExterior</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#reglaMascotas"/>
+        <NamedIndividual IRI="#PoliticaEscapada"/>
+        <Literal>Permitido</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoCancelacion"/>
+        <NamedIndividual IRI="#PoliticaEscapada"/>
+        <Literal>Flexible</Literal>
+    </DataPropertyAssertion>
+    <ClassAssertion>
+        <Class IRI="#PropositoViaje"/>
+        <NamedIndividual IRI="#ViajeReubicacion"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duracionEstadia"/>
+        <NamedIndividual IRI="#ViajeReubicacion"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#modalidadTrabajo"/>
+        <NamedIndividual IRI="#ViajeReubicacion"/>
+        <Literal>Hibrido</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoPropositoViaje"/>
+        <NamedIndividual IRI="#ViajeReubicacion"/>
+        <Literal>Reubicacion</Literal>
+    </DataPropertyAssertion>
+    <ClassAssertion>
+        <Class IRI="#PropositoViaje"/>
+        <NamedIndividual IRI="#ViajeCongreso"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duracionEstadia"/>
+        <NamedIndividual IRI="#ViajeCongreso"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#modalidadTrabajo"/>
+        <NamedIndividual IRI="#ViajeCongreso"/>
+        <Literal>Presencial</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoPropositoViaje"/>
+        <NamedIndividual IRI="#ViajeCongreso"/>
+        <Literal>EventoEspecial</Literal>
+    </DataPropertyAssertion>
+    <ClassAssertion>
+        <Class IRI="#PropositoViaje"/>
+        <NamedIndividual IRI="#ViajePasantia"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duracionEstadia"/>
+        <NamedIndividual IRI="#ViajePasantia"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">60</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#modalidadTrabajo"/>
+        <NamedIndividual IRI="#ViajePasantia"/>
+        <Literal>Presencial</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoPropositoViaje"/>
+        <NamedIndividual IRI="#ViajePasantia"/>
+        <Literal>Estudios</Literal>
+    </DataPropertyAssertion>
+    <ClassAssertion>
+        <Class IRI="#PropositoViaje"/>
+        <NamedIndividual IRI="#ViajeProyecto"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duracionEstadia"/>
+        <NamedIndividual IRI="#ViajeProyecto"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">14</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#modalidadTrabajo"/>
+        <NamedIndividual IRI="#ViajeProyecto"/>
+        <Literal>Hibrido</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoPropositoViaje"/>
+        <NamedIndividual IRI="#ViajeProyecto"/>
+        <Literal>Profesional</Literal>
+    </DataPropertyAssertion>
+    <ClassAssertion>
+        <Class IRI="#PropositoViaje"/>
+        <NamedIndividual IRI="#ViajeEscapada"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duracionEstadia"/>
+        <NamedIndividual IRI="#ViajeEscapada"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#modalidadTrabajo"/>
+        <NamedIndividual IRI="#ViajeEscapada"/>
+        <Literal>NoAplica</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoPropositoViaje"/>
+        <NamedIndividual IRI="#ViajeEscapada"/>
+        <Literal>Vacacional</Literal>
+    </DataPropertyAssertion>
+    <ClassAssertion>
+        <Class IRI="#Apartamento"/>
+        <NamedIndividual IRI="#Apto_Achumani_1"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#compatibleCon"/>
+        <NamedIndividual IRI="#Apto_Achumani_1"/>
+        <NamedIndividual IRI="#Ejecutivo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Apto_Achumani_1"/>
+        <NamedIndividual IRI="#Wifi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Apto_Achumani_1"/>
+        <NamedIndividual IRI="#Cocina"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Apto_Achumani_1"/>
+        <NamedIndividual IRI="#EspacioTrabajo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tienePolitica"/>
+        <NamedIndividual IRI="#Apto_Achumani_1"/>
+        <NamedIndividual IRI="#PoliticaCorporativa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadaEn"/>
+        <NamedIndividual IRI="#Apto_Achumani_1"/>
+        <NamedIndividual IRI="#Zona_LP_ACHUMANI"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areaTotal"/>
+        <NamedIndividual IRI="#Apto_Achumani_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">78.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#calificacionPromedio"/>
+        <NamedIndividual IRI="#Apto_Achumani_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#capacidadMaxima"/>
+        <NamedIndividual IRI="#Apto_Achumani_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#descripcionPropiedad"/>
+        <NamedIndividual IRI="#Apto_Achumani_1"/>
+        <Literal>Departamento de dos ambientes en Achumani, util para trabajo remoto y estadias ejecutivas.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombrePropiedad"/>
+        <NamedIndividual IRI="#Apto_Achumani_1"/>
+        <Literal>Departamento con vista en Achumani</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroBanos"/>
+        <NamedIndividual IRI="#Apto_Achumani_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroDormitorios"/>
+        <NamedIndividual IRI="#Apto_Achumani_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroPiso"/>
+        <NamedIndividual IRI="#Apto_Achumani_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precioNoche"/>
+        <NamedIndividual IRI="#Apto_Achumani_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">52.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#seguridadEdificio"/>
+        <NamedIndividual IRI="#Apto_Achumani_1"/>
+        <Literal>Intercomunicador</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneAscensor"/>
+        <NamedIndividual IRI="#Apto_Achumani_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoAcceso"/>
+        <NamedIndividual IRI="#Apto_Achumani_1"/>
+        <Literal>LlaveElectronica</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoEspacioExterior"/>
+        <NamedIndividual IRI="#Apto_Achumani_1"/>
+        <Literal>Balcon</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoEstacionamiento"/>
+        <NamedIndividual IRI="#Apto_Achumani_1"/>
+        <Literal>GarajePrivado</Literal>
+    </DataPropertyAssertion>
+    <ClassAssertion>
+        <Class IRI="#Apartamento"/>
+        <NamedIndividual IRI="#Apto_Tiquipaya_1"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#compatibleCon"/>
+        <NamedIndividual IRI="#Apto_Tiquipaya_1"/>
+        <NamedIndividual IRI="#FamiliaReubicacion"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Apto_Tiquipaya_1"/>
+        <NamedIndividual IRI="#Wifi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Apto_Tiquipaya_1"/>
+        <NamedIndividual IRI="#Cocina"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Apto_Tiquipaya_1"/>
+        <NamedIndividual IRI="#ParkingGratis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tienePolitica"/>
+        <NamedIndividual IRI="#Apto_Tiquipaya_1"/>
+        <NamedIndividual IRI="#PoliticaResidencial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadaEn"/>
+        <NamedIndividual IRI="#Apto_Tiquipaya_1"/>
+        <NamedIndividual IRI="#Zona_CBBA_TIQUIPAYA"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areaTotal"/>
+        <NamedIndividual IRI="#Apto_Tiquipaya_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">82.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#calificacionPromedio"/>
+        <NamedIndividual IRI="#Apto_Tiquipaya_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#capacidadMaxima"/>
+        <NamedIndividual IRI="#Apto_Tiquipaya_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#descripcionPropiedad"/>
+        <NamedIndividual IRI="#Apto_Tiquipaya_1"/>
+        <Literal>Departamento familiar en Tiquipaya con cocina equipada y parqueo gratuito.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombrePropiedad"/>
+        <NamedIndividual IRI="#Apto_Tiquipaya_1"/>
+        <Literal>Departamento familiar en Tiquipaya</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroBanos"/>
+        <NamedIndividual IRI="#Apto_Tiquipaya_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroDormitorios"/>
+        <NamedIndividual IRI="#Apto_Tiquipaya_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroPiso"/>
+        <NamedIndividual IRI="#Apto_Tiquipaya_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precioNoche"/>
+        <NamedIndividual IRI="#Apto_Tiquipaya_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">58.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#seguridadEdificio"/>
+        <NamedIndividual IRI="#Apto_Tiquipaya_1"/>
+        <Literal>SoloLlave</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneAscensor"/>
+        <NamedIndividual IRI="#Apto_Tiquipaya_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoAcceso"/>
+        <NamedIndividual IRI="#Apto_Tiquipaya_1"/>
+        <Literal>LlaveElectronica</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoEspacioExterior"/>
+        <NamedIndividual IRI="#Apto_Tiquipaya_1"/>
+        <Literal>Terraza</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoEstacionamiento"/>
+        <NamedIndividual IRI="#Apto_Tiquipaya_1"/>
+        <Literal>GarajePrivado</Literal>
+    </DataPropertyAssertion>
+    <ClassAssertion>
+        <Class IRI="#Apartamento"/>
+        <NamedIndividual IRI="#Apto_Urubo_1"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#compatibleCon"/>
+        <NamedIndividual IRI="#Apto_Urubo_1"/>
+        <NamedIndividual IRI="#ParejaEscapada"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Apto_Urubo_1"/>
+        <NamedIndividual IRI="#Piscina"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Apto_Urubo_1"/>
+        <NamedIndividual IRI="#Wifi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Apto_Urubo_1"/>
+        <NamedIndividual IRI="#Desayuno"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tienePolitica"/>
+        <NamedIndividual IRI="#Apto_Urubo_1"/>
+        <NamedIndividual IRI="#PoliticaEscapada"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadaEn"/>
+        <NamedIndividual IRI="#Apto_Urubo_1"/>
+        <NamedIndividual IRI="#Zona_SCZ_URUBO"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areaTotal"/>
+        <NamedIndividual IRI="#Apto_Urubo_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">70.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#calificacionPromedio"/>
+        <NamedIndividual IRI="#Apto_Urubo_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#capacidadMaxima"/>
+        <NamedIndividual IRI="#Apto_Urubo_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#descripcionPropiedad"/>
+        <NamedIndividual IRI="#Apto_Urubo_1"/>
+        <Literal>Loft luminoso en Urubo con piscina del condominio, pensado para escapadas cortas.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombrePropiedad"/>
+        <NamedIndividual IRI="#Apto_Urubo_1"/>
+        <Literal>Loft con piscina en Urubo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroBanos"/>
+        <NamedIndividual IRI="#Apto_Urubo_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroDormitorios"/>
+        <NamedIndividual IRI="#Apto_Urubo_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroPiso"/>
+        <NamedIndividual IRI="#Apto_Urubo_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precioNoche"/>
+        <NamedIndividual IRI="#Apto_Urubo_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">95.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#seguridadEdificio"/>
+        <NamedIndividual IRI="#Apto_Urubo_1"/>
+        <Literal>Vigilancia24h</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneAscensor"/>
+        <NamedIndividual IRI="#Apto_Urubo_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoAcceso"/>
+        <NamedIndividual IRI="#Apto_Urubo_1"/>
+        <Literal>LlaveElectronica</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoEspacioExterior"/>
+        <NamedIndividual IRI="#Apto_Urubo_1"/>
+        <Literal>Terraza</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoEstacionamiento"/>
+        <NamedIndividual IRI="#Apto_Urubo_1"/>
+        <Literal>GarajePrivado</Literal>
+    </DataPropertyAssertion>
+    <ClassAssertion>
+        <Class IRI="#Apartamento"/>
+        <NamedIndividual IRI="#Apto_CentroSucre_1"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#compatibleCon"/>
+        <NamedIndividual IRI="#Apto_CentroSucre_1"/>
+        <NamedIndividual IRI="#GrupoEstudiantil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Apto_CentroSucre_1"/>
+        <NamedIndividual IRI="#Wifi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Apto_CentroSucre_1"/>
+        <NamedIndividual IRI="#Cocina"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tienePolitica"/>
+        <NamedIndividual IRI="#Apto_CentroSucre_1"/>
+        <NamedIndividual IRI="#PoliticaEstudiantil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadaEn"/>
+        <NamedIndividual IRI="#Apto_CentroSucre_1"/>
+        <NamedIndividual IRI="#Zona_SUCRE_CENTRO"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areaTotal"/>
+        <NamedIndividual IRI="#Apto_CentroSucre_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">60.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#calificacionPromedio"/>
+        <NamedIndividual IRI="#Apto_CentroSucre_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#capacidadMaxima"/>
+        <NamedIndividual IRI="#Apto_CentroSucre_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#descripcionPropiedad"/>
+        <NamedIndividual IRI="#Apto_CentroSucre_1"/>
+        <Literal>Apartamento compacto en el centro historico de Sucre, adecuado para estudiantes o pasantes.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombrePropiedad"/>
+        <NamedIndividual IRI="#Apto_CentroSucre_1"/>
+        <Literal>Apartamento estudiantil en centro de Sucre</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroBanos"/>
+        <NamedIndividual IRI="#Apto_CentroSucre_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroDormitorios"/>
+        <NamedIndividual IRI="#Apto_CentroSucre_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroPiso"/>
+        <NamedIndividual IRI="#Apto_CentroSucre_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precioNoche"/>
+        <NamedIndividual IRI="#Apto_CentroSucre_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">40.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#seguridadEdificio"/>
+        <NamedIndividual IRI="#Apto_CentroSucre_1"/>
+        <Literal>Intercomunicador</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneAscensor"/>
+        <NamedIndividual IRI="#Apto_CentroSucre_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoAcceso"/>
+        <NamedIndividual IRI="#Apto_CentroSucre_1"/>
+        <Literal>LlaveElectronica</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoEspacioExterior"/>
+        <NamedIndividual IRI="#Apto_CentroSucre_1"/>
+        <Literal>Balcon</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoEstacionamiento"/>
+        <NamedIndividual IRI="#Apto_CentroSucre_1"/>
+        <Literal>NoDisponible</Literal>
+    </DataPropertyAssertion>
+    <ClassAssertion>
+        <Class IRI="#Apartamento"/>
+        <NamedIndividual IRI="#Apto_SanRoque_1"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#compatibleCon"/>
+        <NamedIndividual IRI="#Apto_SanRoque_1"/>
+        <NamedIndividual IRI="#AmigosCongreso"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Apto_SanRoque_1"/>
+        <NamedIndividual IRI="#AireAcondicionado"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Apto_SanRoque_1"/>
+        <NamedIndividual IRI="#Parking"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tienePolitica"/>
+        <NamedIndividual IRI="#Apto_SanRoque_1"/>
+        <NamedIndividual IRI="#PoliticaCorporativa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadaEn"/>
+        <NamedIndividual IRI="#Apto_SanRoque_1"/>
+        <NamedIndividual IRI="#Zona_TARIJA_SANROQUE"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areaTotal"/>
+        <NamedIndividual IRI="#Apto_SanRoque_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">76.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#calificacionPromedio"/>
+        <NamedIndividual IRI="#Apto_SanRoque_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#capacidadMaxima"/>
+        <NamedIndividual IRI="#Apto_SanRoque_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#descripcionPropiedad"/>
+        <NamedIndividual IRI="#Apto_SanRoque_1"/>
+        <Literal>Departamento funcional en San Roque para grupos pequenos que asisten a ferias o congresos.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombrePropiedad"/>
+        <NamedIndividual IRI="#Apto_SanRoque_1"/>
+        <Literal>Departamento funcional en San Roque</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroBanos"/>
+        <NamedIndividual IRI="#Apto_SanRoque_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroDormitorios"/>
+        <NamedIndividual IRI="#Apto_SanRoque_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroPiso"/>
+        <NamedIndividual IRI="#Apto_SanRoque_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precioNoche"/>
+        <NamedIndividual IRI="#Apto_SanRoque_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">47.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#seguridadEdificio"/>
+        <NamedIndividual IRI="#Apto_SanRoque_1"/>
+        <Literal>Intercomunicador</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneAscensor"/>
+        <NamedIndividual IRI="#Apto_SanRoque_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoAcceso"/>
+        <NamedIndividual IRI="#Apto_SanRoque_1"/>
+        <Literal>LlaveElectronica</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoEspacioExterior"/>
+        <NamedIndividual IRI="#Apto_SanRoque_1"/>
+        <Literal>Balcon</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoEstacionamiento"/>
+        <NamedIndividual IRI="#Apto_SanRoque_1"/>
+        <Literal>Calle</Literal>
+    </DataPropertyAssertion>
+    <ClassAssertion>
+        <Class IRI="#Casa"/>
+        <NamedIndividual IRI="#Casa_Achumani_1"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#compatibleCon"/>
+        <NamedIndividual IRI="#Casa_Achumani_1"/>
+        <NamedIndividual IRI="#FamiliaReubicacion"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Casa_Achumani_1"/>
+        <NamedIndividual IRI="#Cocina"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Casa_Achumani_1"/>
+        <NamedIndividual IRI="#Wifi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Casa_Achumani_1"/>
+        <NamedIndividual IRI="#ParkingGratis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tienePolitica"/>
+        <NamedIndividual IRI="#Casa_Achumani_1"/>
+        <NamedIndividual IRI="#PoliticaResidencial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadaEn"/>
+        <NamedIndividual IRI="#Casa_Achumani_1"/>
+        <NamedIndividual IRI="#Zona_LP_ACHUMANI"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areaTotal"/>
+        <NamedIndividual IRI="#Casa_Achumani_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">160.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#calificacionPromedio"/>
+        <NamedIndividual IRI="#Casa_Achumani_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#capacidadMaxima"/>
+        <NamedIndividual IRI="#Casa_Achumani_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#descripcionPropiedad"/>
+        <NamedIndividual IRI="#Casa_Achumani_1"/>
+        <Literal>Casa amplia con jardin en Achumani, pensada para familias que necesitan una base comoda por varias semanas.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombrePropiedad"/>
+        <NamedIndividual IRI="#Casa_Achumani_1"/>
+        <Literal>Casa amplia con jardin en Achumani</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroBanos"/>
+        <NamedIndividual IRI="#Casa_Achumani_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroDormitorios"/>
+        <NamedIndividual IRI="#Casa_Achumani_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroPlantas"/>
+        <NamedIndividual IRI="#Casa_Achumani_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precioNoche"/>
+        <NamedIndividual IRI="#Casa_Achumani_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">85.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneJardin"/>
+        <NamedIndividual IRI="#Casa_Achumani_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoAcceso"/>
+        <NamedIndividual IRI="#Casa_Achumani_1"/>
+        <Literal>LlaveTradicional</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoEspacioExterior"/>
+        <NamedIndividual IRI="#Casa_Achumani_1"/>
+        <Literal>Jardin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoEstacionamiento"/>
+        <NamedIndividual IRI="#Casa_Achumani_1"/>
+        <Literal>GarajePrivado</Literal>
+    </DataPropertyAssertion>
+    <ClassAssertion>
+        <Class IRI="#Casa"/>
+        <NamedIndividual IRI="#Casa_Tiquipaya_1"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#compatibleCon"/>
+        <NamedIndividual IRI="#Casa_Tiquipaya_1"/>
+        <NamedIndividual IRI="#Familiar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Casa_Tiquipaya_1"/>
+        <NamedIndividual IRI="#Piscina"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Casa_Tiquipaya_1"/>
+        <NamedIndividual IRI="#Cocina"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Casa_Tiquipaya_1"/>
+        <NamedIndividual IRI="#Lavanderia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tienePolitica"/>
+        <NamedIndividual IRI="#Casa_Tiquipaya_1"/>
+        <NamedIndividual IRI="#PoliticaPetFriendly"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadaEn"/>
+        <NamedIndividual IRI="#Casa_Tiquipaya_1"/>
+        <NamedIndividual IRI="#Zona_CBBA_TIQUIPAYA"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areaTotal"/>
+        <NamedIndividual IRI="#Casa_Tiquipaya_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">180.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#calificacionPromedio"/>
+        <NamedIndividual IRI="#Casa_Tiquipaya_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#capacidadMaxima"/>
+        <NamedIndividual IRI="#Casa_Tiquipaya_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#descripcionPropiedad"/>
+        <NamedIndividual IRI="#Casa_Tiquipaya_1"/>
+        <Literal>Casa de descanso en Tiquipaya con piscina y patio amplio, apropiada para vacaciones familiares.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombrePropiedad"/>
+        <NamedIndividual IRI="#Casa_Tiquipaya_1"/>
+        <Literal>Casa de descanso en Tiquipaya</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroBanos"/>
+        <NamedIndividual IRI="#Casa_Tiquipaya_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroDormitorios"/>
+        <NamedIndividual IRI="#Casa_Tiquipaya_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroPlantas"/>
+        <NamedIndividual IRI="#Casa_Tiquipaya_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precioNoche"/>
+        <NamedIndividual IRI="#Casa_Tiquipaya_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">90.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneJardin"/>
+        <NamedIndividual IRI="#Casa_Tiquipaya_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoAcceso"/>
+        <NamedIndividual IRI="#Casa_Tiquipaya_1"/>
+        <Literal>LlaveTradicional</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoEspacioExterior"/>
+        <NamedIndividual IRI="#Casa_Tiquipaya_1"/>
+        <Literal>Jardin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoEstacionamiento"/>
+        <NamedIndividual IRI="#Casa_Tiquipaya_1"/>
+        <Literal>GarajePrivado</Literal>
+    </DataPropertyAssertion>
+    <ClassAssertion>
+        <Class IRI="#Casa"/>
+        <NamedIndividual IRI="#Casa_Urubo_1"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#compatibleCon"/>
+        <NamedIndividual IRI="#Casa_Urubo_1"/>
+        <NamedIndividual IRI="#ParejaEscapada"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Casa_Urubo_1"/>
+        <NamedIndividual IRI="#Piscina"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Casa_Urubo_1"/>
+        <NamedIndividual IRI="#Wifi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Casa_Urubo_1"/>
+        <NamedIndividual IRI="#AireAcondicionado"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tienePolitica"/>
+        <NamedIndividual IRI="#Casa_Urubo_1"/>
+        <NamedIndividual IRI="#PoliticaEscapada"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadaEn"/>
+        <NamedIndividual IRI="#Casa_Urubo_1"/>
+        <NamedIndividual IRI="#Zona_SCZ_URUBO"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areaTotal"/>
+        <NamedIndividual IRI="#Casa_Urubo_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">175.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#calificacionPromedio"/>
+        <NamedIndividual IRI="#Casa_Urubo_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#capacidadMaxima"/>
+        <NamedIndividual IRI="#Casa_Urubo_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#descripcionPropiedad"/>
+        <NamedIndividual IRI="#Casa_Urubo_1"/>
+        <Literal>Casa moderna en Urubo con piscina y terraza, pensada para escapadas comodas con privacidad.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombrePropiedad"/>
+        <NamedIndividual IRI="#Casa_Urubo_1"/>
+        <Literal>Casa moderna en Urubo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroBanos"/>
+        <NamedIndividual IRI="#Casa_Urubo_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroDormitorios"/>
+        <NamedIndividual IRI="#Casa_Urubo_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroPlantas"/>
+        <NamedIndividual IRI="#Casa_Urubo_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precioNoche"/>
+        <NamedIndividual IRI="#Casa_Urubo_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">120.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneJardin"/>
+        <NamedIndividual IRI="#Casa_Urubo_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoAcceso"/>
+        <NamedIndividual IRI="#Casa_Urubo_1"/>
+        <Literal>LlaveElectronica</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoEspacioExterior"/>
+        <NamedIndividual IRI="#Casa_Urubo_1"/>
+        <Literal>Jardin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoEstacionamiento"/>
+        <NamedIndividual IRI="#Casa_Urubo_1"/>
+        <Literal>GarajePrivado</Literal>
+    </DataPropertyAssertion>
+    <ClassAssertion>
+        <Class IRI="#Casa"/>
+        <NamedIndividual IRI="#Casa_CentroSucre_1"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#compatibleCon"/>
+        <NamedIndividual IRI="#Casa_CentroSucre_1"/>
+        <NamedIndividual IRI="#AmigosCongreso"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Casa_CentroSucre_1"/>
+        <NamedIndividual IRI="#Cocina"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Casa_CentroSucre_1"/>
+        <NamedIndividual IRI="#Wifi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Casa_CentroSucre_1"/>
+        <NamedIndividual IRI="#Limpieza"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tienePolitica"/>
+        <NamedIndividual IRI="#Casa_CentroSucre_1"/>
+        <NamedIndividual IRI="#PoliticaModerada"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadaEn"/>
+        <NamedIndividual IRI="#Casa_CentroSucre_1"/>
+        <NamedIndividual IRI="#Zona_SUCRE_CENTRO"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areaTotal"/>
+        <NamedIndividual IRI="#Casa_CentroSucre_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">140.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#calificacionPromedio"/>
+        <NamedIndividual IRI="#Casa_CentroSucre_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#capacidadMaxima"/>
+        <NamedIndividual IRI="#Casa_CentroSucre_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#descripcionPropiedad"/>
+        <NamedIndividual IRI="#Casa_CentroSucre_1"/>
+        <Literal>Casona patrimonial del centro de Sucre, util para grupos que quieren caminar por el casco historico.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombrePropiedad"/>
+        <NamedIndividual IRI="#Casa_CentroSucre_1"/>
+        <Literal>Casona patrimonial en centro de Sucre</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroBanos"/>
+        <NamedIndividual IRI="#Casa_CentroSucre_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroDormitorios"/>
+        <NamedIndividual IRI="#Casa_CentroSucre_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroPlantas"/>
+        <NamedIndividual IRI="#Casa_CentroSucre_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precioNoche"/>
+        <NamedIndividual IRI="#Casa_CentroSucre_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">68.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneJardin"/>
+        <NamedIndividual IRI="#Casa_CentroSucre_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoAcceso"/>
+        <NamedIndividual IRI="#Casa_CentroSucre_1"/>
+        <Literal>LlaveTradicional</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoEspacioExterior"/>
+        <NamedIndividual IRI="#Casa_CentroSucre_1"/>
+        <Literal>Patio</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoEstacionamiento"/>
+        <NamedIndividual IRI="#Casa_CentroSucre_1"/>
+        <Literal>NoDisponible</Literal>
+    </DataPropertyAssertion>
+    <ClassAssertion>
+        <Class IRI="#Casa"/>
+        <NamedIndividual IRI="#Casa_SanRoque_1"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#compatibleCon"/>
+        <NamedIndividual IRI="#Casa_SanRoque_1"/>
+        <NamedIndividual IRI="#ParejaEscapada"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Casa_SanRoque_1"/>
+        <NamedIndividual IRI="#Cocina"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Casa_SanRoque_1"/>
+        <NamedIndividual IRI="#Wifi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Casa_SanRoque_1"/>
+        <NamedIndividual IRI="#AireAcondicionado"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tienePolitica"/>
+        <NamedIndividual IRI="#Casa_SanRoque_1"/>
+        <NamedIndividual IRI="#PoliticaEscapada"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadaEn"/>
+        <NamedIndividual IRI="#Casa_SanRoque_1"/>
+        <NamedIndividual IRI="#Zona_TARIJA_SANROQUE"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areaTotal"/>
+        <NamedIndividual IRI="#Casa_SanRoque_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">130.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#calificacionPromedio"/>
+        <NamedIndividual IRI="#Casa_SanRoque_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#capacidadMaxima"/>
+        <NamedIndividual IRI="#Casa_SanRoque_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#descripcionPropiedad"/>
+        <NamedIndividual IRI="#Casa_SanRoque_1"/>
+        <Literal>Casa tarijena con galeria en San Roque, comoda para estadias cortas con ambiente residencial.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombrePropiedad"/>
+        <NamedIndividual IRI="#Casa_SanRoque_1"/>
+        <Literal>Casa tarijena con galeria en San Roque</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroBanos"/>
+        <NamedIndividual IRI="#Casa_SanRoque_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroDormitorios"/>
+        <NamedIndividual IRI="#Casa_SanRoque_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroPlantas"/>
+        <NamedIndividual IRI="#Casa_SanRoque_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precioNoche"/>
+        <NamedIndividual IRI="#Casa_SanRoque_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">62.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneJardin"/>
+        <NamedIndividual IRI="#Casa_SanRoque_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoAcceso"/>
+        <NamedIndividual IRI="#Casa_SanRoque_1"/>
+        <Literal>LlaveTradicional</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoEspacioExterior"/>
+        <NamedIndividual IRI="#Casa_SanRoque_1"/>
+        <Literal>Jardin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoEstacionamiento"/>
+        <NamedIndividual IRI="#Casa_SanRoque_1"/>
+        <Literal>GarajePrivado</Literal>
+    </DataPropertyAssertion>
+    <ClassAssertion>
+        <Class IRI="#HabitacionCompartida"/>
+        <NamedIndividual IRI="#Hab_Compartida_Achumani_1"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#compatibleCon"/>
+        <NamedIndividual IRI="#Hab_Compartida_Achumani_1"/>
+        <NamedIndividual IRI="#GrupoEstudiantil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Hab_Compartida_Achumani_1"/>
+        <NamedIndividual IRI="#Wifi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Hab_Compartida_Achumani_1"/>
+        <NamedIndividual IRI="#EspacioTrabajo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tienePolitica"/>
+        <NamedIndividual IRI="#Hab_Compartida_Achumani_1"/>
+        <NamedIndividual IRI="#PoliticaEstudiantil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadaEn"/>
+        <NamedIndividual IRI="#Hab_Compartida_Achumani_1"/>
+        <NamedIndividual IRI="#Zona_LP_ACHUMANI"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#calificacionPromedio"/>
+        <NamedIndividual IRI="#Hab_Compartida_Achumani_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#capacidadDormitorio"/>
+        <NamedIndividual IRI="#Hab_Compartida_Achumani_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#capacidadMaxima"/>
+        <NamedIndividual IRI="#Hab_Compartida_Achumani_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#descripcionPropiedad"/>
+        <NamedIndividual IRI="#Hab_Compartida_Achumani_1"/>
+        <Literal>Cama en residencia compartida de Achumani, orientada a estudiantes con espacios de estudio.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dimensionesHabitacion"/>
+        <NamedIndividual IRI="#Hab_Compartida_Achumani_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">24.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombrePropiedad"/>
+        <NamedIndividual IRI="#Hab_Compartida_Achumani_1"/>
+        <Literal>Cama en residencia de Achumani</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroBanos"/>
+        <NamedIndividual IRI="#Hab_Compartida_Achumani_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroBanosCompartidos"/>
+        <NamedIndividual IRI="#Hab_Compartida_Achumani_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroDormitorios"/>
+        <NamedIndividual IRI="#Hab_Compartida_Achumani_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroHabitacion"/>
+        <NamedIndividual IRI="#Hab_Compartida_Achumani_1"/>
+        <Literal>A-201</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precioNoche"/>
+        <NamedIndividual IRI="#Hab_Compartida_Achumani_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">14.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoAcceso"/>
+        <NamedIndividual IRI="#Hab_Compartida_Achumani_1"/>
+        <Literal>CodigoNumerico</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoBano"/>
+        <NamedIndividual IRI="#Hab_Compartida_Achumani_1"/>
+        <Literal>Compartido</Literal>
+    </DataPropertyAssertion>
+    <ClassAssertion>
+        <Class IRI="#HabitacionCompartida"/>
+        <NamedIndividual IRI="#Hab_Compartida_Tiquipaya_1"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#compatibleCon"/>
+        <NamedIndividual IRI="#Hab_Compartida_Tiquipaya_1"/>
+        <NamedIndividual IRI="#GrupoEstudiantil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Hab_Compartida_Tiquipaya_1"/>
+        <NamedIndividual IRI="#Wifi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Hab_Compartida_Tiquipaya_1"/>
+        <NamedIndividual IRI="#Cocina"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tienePolitica"/>
+        <NamedIndividual IRI="#Hab_Compartida_Tiquipaya_1"/>
+        <NamedIndividual IRI="#PoliticaEstudiantil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadaEn"/>
+        <NamedIndividual IRI="#Hab_Compartida_Tiquipaya_1"/>
+        <NamedIndividual IRI="#Zona_CBBA_TIQUIPAYA"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#calificacionPromedio"/>
+        <NamedIndividual IRI="#Hab_Compartida_Tiquipaya_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#capacidadDormitorio"/>
+        <NamedIndividual IRI="#Hab_Compartida_Tiquipaya_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#capacidadMaxima"/>
+        <NamedIndividual IRI="#Hab_Compartida_Tiquipaya_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#descripcionPropiedad"/>
+        <NamedIndividual IRI="#Hab_Compartida_Tiquipaya_1"/>
+        <Literal>Cama en casa compartida de Tiquipaya, adecuada para estudiantes con presupuesto moderado.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dimensionesHabitacion"/>
+        <NamedIndividual IRI="#Hab_Compartida_Tiquipaya_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">28.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombrePropiedad"/>
+        <NamedIndividual IRI="#Hab_Compartida_Tiquipaya_1"/>
+        <Literal>Cama en casa compartida de Tiquipaya</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroBanos"/>
+        <NamedIndividual IRI="#Hab_Compartida_Tiquipaya_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroBanosCompartidos"/>
+        <NamedIndividual IRI="#Hab_Compartida_Tiquipaya_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroDormitorios"/>
+        <NamedIndividual IRI="#Hab_Compartida_Tiquipaya_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroHabitacion"/>
+        <NamedIndividual IRI="#Hab_Compartida_Tiquipaya_1"/>
+        <Literal>TQ-5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precioNoche"/>
+        <NamedIndividual IRI="#Hab_Compartida_Tiquipaya_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">11.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoAcceso"/>
+        <NamedIndividual IRI="#Hab_Compartida_Tiquipaya_1"/>
+        <Literal>CodigoNumerico</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoBano"/>
+        <NamedIndividual IRI="#Hab_Compartida_Tiquipaya_1"/>
+        <Literal>Compartido</Literal>
+    </DataPropertyAssertion>
+    <ClassAssertion>
+        <Class IRI="#HabitacionCompartida"/>
+        <NamedIndividual IRI="#Hab_Compartida_Urubo_1"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#compatibleCon"/>
+        <NamedIndividual IRI="#Hab_Compartida_Urubo_1"/>
+        <NamedIndividual IRI="#AmigosCongreso"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Hab_Compartida_Urubo_1"/>
+        <NamedIndividual IRI="#Wifi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Hab_Compartida_Urubo_1"/>
+        <NamedIndividual IRI="#AireAcondicionado"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tienePolitica"/>
+        <NamedIndividual IRI="#Hab_Compartida_Urubo_1"/>
+        <NamedIndividual IRI="#PoliticaCorporativa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadaEn"/>
+        <NamedIndividual IRI="#Hab_Compartida_Urubo_1"/>
+        <NamedIndividual IRI="#Zona_SCZ_URUBO"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#calificacionPromedio"/>
+        <NamedIndividual IRI="#Hab_Compartida_Urubo_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#capacidadDormitorio"/>
+        <NamedIndividual IRI="#Hab_Compartida_Urubo_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#capacidadMaxima"/>
+        <NamedIndividual IRI="#Hab_Compartida_Urubo_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#descripcionPropiedad"/>
+        <NamedIndividual IRI="#Hab_Compartida_Urubo_1"/>
+        <Literal>Cama en residencia compartida de Urubo, pensada para asistentes a ferias o eventos breves.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dimensionesHabitacion"/>
+        <NamedIndividual IRI="#Hab_Compartida_Urubo_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">22.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombrePropiedad"/>
+        <NamedIndividual IRI="#Hab_Compartida_Urubo_1"/>
+        <Literal>Cama en residencia de Urubo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroBanos"/>
+        <NamedIndividual IRI="#Hab_Compartida_Urubo_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroBanosCompartidos"/>
+        <NamedIndividual IRI="#Hab_Compartida_Urubo_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroDormitorios"/>
+        <NamedIndividual IRI="#Hab_Compartida_Urubo_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroHabitacion"/>
+        <NamedIndividual IRI="#Hab_Compartida_Urubo_1"/>
+        <Literal>U-04</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precioNoche"/>
+        <NamedIndividual IRI="#Hab_Compartida_Urubo_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">18.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoAcceso"/>
+        <NamedIndividual IRI="#Hab_Compartida_Urubo_1"/>
+        <Literal>CodigoNumerico</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoBano"/>
+        <NamedIndividual IRI="#Hab_Compartida_Urubo_1"/>
+        <Literal>Compartido</Literal>
+    </DataPropertyAssertion>
+    <ClassAssertion>
+        <Class IRI="#HabitacionCompartida"/>
+        <NamedIndividual IRI="#Hab_Compartida_CentroSucre_1"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#compatibleCon"/>
+        <NamedIndividual IRI="#Hab_Compartida_CentroSucre_1"/>
+        <NamedIndividual IRI="#GrupoEstudiantil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Hab_Compartida_CentroSucre_1"/>
+        <NamedIndividual IRI="#Wifi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Hab_Compartida_CentroSucre_1"/>
+        <NamedIndividual IRI="#Cocina"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tienePolitica"/>
+        <NamedIndividual IRI="#Hab_Compartida_CentroSucre_1"/>
+        <NamedIndividual IRI="#PoliticaEstudiantil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadaEn"/>
+        <NamedIndividual IRI="#Hab_Compartida_CentroSucre_1"/>
+        <NamedIndividual IRI="#Zona_SUCRE_CENTRO"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#calificacionPromedio"/>
+        <NamedIndividual IRI="#Hab_Compartida_CentroSucre_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#capacidadDormitorio"/>
+        <NamedIndividual IRI="#Hab_Compartida_CentroSucre_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#capacidadMaxima"/>
+        <NamedIndividual IRI="#Hab_Compartida_CentroSucre_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#descripcionPropiedad"/>
+        <NamedIndividual IRI="#Hab_Compartida_CentroSucre_1"/>
+        <Literal>Cama en hostal del centro de Sucre, util para pasantes o viajeros jovenes.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dimensionesHabitacion"/>
+        <NamedIndividual IRI="#Hab_Compartida_CentroSucre_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">20.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombrePropiedad"/>
+        <NamedIndividual IRI="#Hab_Compartida_CentroSucre_1"/>
+        <Literal>Cama en hostal del centro de Sucre</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroBanos"/>
+        <NamedIndividual IRI="#Hab_Compartida_CentroSucre_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroBanosCompartidos"/>
+        <NamedIndividual IRI="#Hab_Compartida_CentroSucre_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroDormitorios"/>
+        <NamedIndividual IRI="#Hab_Compartida_CentroSucre_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroHabitacion"/>
+        <NamedIndividual IRI="#Hab_Compartida_CentroSucre_1"/>
+        <Literal>SC-2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precioNoche"/>
+        <NamedIndividual IRI="#Hab_Compartida_CentroSucre_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">12.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoAcceso"/>
+        <NamedIndividual IRI="#Hab_Compartida_CentroSucre_1"/>
+        <Literal>CodigoNumerico</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoBano"/>
+        <NamedIndividual IRI="#Hab_Compartida_CentroSucre_1"/>
+        <Literal>Compartido</Literal>
+    </DataPropertyAssertion>
+    <ClassAssertion>
+        <Class IRI="#HabitacionCompartida"/>
+        <NamedIndividual IRI="#Hab_Compartida_SanRoque_1"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#compatibleCon"/>
+        <NamedIndividual IRI="#Hab_Compartida_SanRoque_1"/>
+        <NamedIndividual IRI="#Individual"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Hab_Compartida_SanRoque_1"/>
+        <NamedIndividual IRI="#Wifi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Hab_Compartida_SanRoque_1"/>
+        <NamedIndividual IRI="#Parking"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tienePolitica"/>
+        <NamedIndividual IRI="#Hab_Compartida_SanRoque_1"/>
+        <NamedIndividual IRI="#PoliticaModerada"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadaEn"/>
+        <NamedIndividual IRI="#Hab_Compartida_SanRoque_1"/>
+        <NamedIndividual IRI="#Zona_TARIJA_SANROQUE"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#calificacionPromedio"/>
+        <NamedIndividual IRI="#Hab_Compartida_SanRoque_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#capacidadDormitorio"/>
+        <NamedIndividual IRI="#Hab_Compartida_SanRoque_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#capacidadMaxima"/>
+        <NamedIndividual IRI="#Hab_Compartida_SanRoque_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#descripcionPropiedad"/>
+        <NamedIndividual IRI="#Hab_Compartida_SanRoque_1"/>
+        <Literal>Cama en residencial de San Roque, sencilla y funcional para viajeros individuales.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dimensionesHabitacion"/>
+        <NamedIndividual IRI="#Hab_Compartida_SanRoque_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">19.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombrePropiedad"/>
+        <NamedIndividual IRI="#Hab_Compartida_SanRoque_1"/>
+        <Literal>Cama en residencial de San Roque</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroBanos"/>
+        <NamedIndividual IRI="#Hab_Compartida_SanRoque_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroBanosCompartidos"/>
+        <NamedIndividual IRI="#Hab_Compartida_SanRoque_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroDormitorios"/>
+        <NamedIndividual IRI="#Hab_Compartida_SanRoque_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroHabitacion"/>
+        <NamedIndividual IRI="#Hab_Compartida_SanRoque_1"/>
+        <Literal>SR-6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precioNoche"/>
+        <NamedIndividual IRI="#Hab_Compartida_SanRoque_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">13.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoAcceso"/>
+        <NamedIndividual IRI="#Hab_Compartida_SanRoque_1"/>
+        <Literal>CodigoNumerico</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoBano"/>
+        <NamedIndividual IRI="#Hab_Compartida_SanRoque_1"/>
+        <Literal>Compartido</Literal>
+    </DataPropertyAssertion>
+    <ClassAssertion>
+        <Class IRI="#HabitacionPrivada"/>
+        <NamedIndividual IRI="#Hab_Privada_Achumani_1"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#compatibleCon"/>
+        <NamedIndividual IRI="#Hab_Privada_Achumani_1"/>
+        <NamedIndividual IRI="#Ejecutivo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Hab_Privada_Achumani_1"/>
+        <NamedIndividual IRI="#Wifi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Hab_Privada_Achumani_1"/>
+        <NamedIndividual IRI="#EspacioTrabajo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tienePolitica"/>
+        <NamedIndividual IRI="#Hab_Privada_Achumani_1"/>
+        <NamedIndividual IRI="#PoliticaCorporativa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadaEn"/>
+        <NamedIndividual IRI="#Hab_Privada_Achumani_1"/>
+        <NamedIndividual IRI="#Zona_LP_ACHUMANI"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#calificacionPromedio"/>
+        <NamedIndividual IRI="#Hab_Privada_Achumani_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#capacidadMaxima"/>
+        <NamedIndividual IRI="#Hab_Privada_Achumani_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#descripcionPropiedad"/>
+        <NamedIndividual IRI="#Hab_Privada_Achumani_1"/>
+        <Literal>Habitacion privada en Achumani, comoda para trabajo remoto y descanso en una zona residencial.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dimensionesHabitacion"/>
+        <NamedIndividual IRI="#Hab_Privada_Achumani_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">18.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombrePropiedad"/>
+        <NamedIndividual IRI="#Hab_Privada_Achumani_1"/>
+        <Literal>Habitacion privada en Achumani</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroBanos"/>
+        <NamedIndividual IRI="#Hab_Privada_Achumani_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroDormitorios"/>
+        <NamedIndividual IRI="#Hab_Privada_Achumani_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroHabitacion"/>
+        <NamedIndividual IRI="#Hab_Privada_Achumani_1"/>
+        <Literal>A-12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precioNoche"/>
+        <NamedIndividual IRI="#Hab_Privada_Achumani_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">32.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoAcceso"/>
+        <NamedIndividual IRI="#Hab_Privada_Achumani_1"/>
+        <Literal>LlaveTradicional</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoBano"/>
+        <NamedIndividual IRI="#Hab_Privada_Achumani_1"/>
+        <Literal>EnSuite</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoCama"/>
+        <NamedIndividual IRI="#Hab_Privada_Achumani_1"/>
+        <Literal>Queen</Literal>
+    </DataPropertyAssertion>
+    <ClassAssertion>
+        <Class IRI="#HabitacionPrivada"/>
+        <NamedIndividual IRI="#Hab_Privada_Tiquipaya_1"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#compatibleCon"/>
+        <NamedIndividual IRI="#Hab_Privada_Tiquipaya_1"/>
+        <NamedIndividual IRI="#ParejaEscapada"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Hab_Privada_Tiquipaya_1"/>
+        <NamedIndividual IRI="#Wifi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Hab_Privada_Tiquipaya_1"/>
+        <NamedIndividual IRI="#Desayuno"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tienePolitica"/>
+        <NamedIndividual IRI="#Hab_Privada_Tiquipaya_1"/>
+        <NamedIndividual IRI="#PoliticaEscapada"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadaEn"/>
+        <NamedIndividual IRI="#Hab_Privada_Tiquipaya_1"/>
+        <NamedIndividual IRI="#Zona_CBBA_TIQUIPAYA"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#calificacionPromedio"/>
+        <NamedIndividual IRI="#Hab_Privada_Tiquipaya_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#capacidadMaxima"/>
+        <NamedIndividual IRI="#Hab_Privada_Tiquipaya_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#descripcionPropiedad"/>
+        <NamedIndividual IRI="#Hab_Privada_Tiquipaya_1"/>
+        <Literal>Habitacion privada con jardin en Tiquipaya, agradable para escapadas tranquilas en pareja.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dimensionesHabitacion"/>
+        <NamedIndividual IRI="#Hab_Privada_Tiquipaya_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">20.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombrePropiedad"/>
+        <NamedIndividual IRI="#Hab_Privada_Tiquipaya_1"/>
+        <Literal>Habitacion privada con jardin en Tiquipaya</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroBanos"/>
+        <NamedIndividual IRI="#Hab_Privada_Tiquipaya_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroDormitorios"/>
+        <NamedIndividual IRI="#Hab_Privada_Tiquipaya_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroHabitacion"/>
+        <NamedIndividual IRI="#Hab_Privada_Tiquipaya_1"/>
+        <Literal>TQ-2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precioNoche"/>
+        <NamedIndividual IRI="#Hab_Privada_Tiquipaya_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">28.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoAcceso"/>
+        <NamedIndividual IRI="#Hab_Privada_Tiquipaya_1"/>
+        <Literal>LlaveTradicional</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoBano"/>
+        <NamedIndividual IRI="#Hab_Privada_Tiquipaya_1"/>
+        <Literal>EnSuite</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoCama"/>
+        <NamedIndividual IRI="#Hab_Privada_Tiquipaya_1"/>
+        <Literal>Doble</Literal>
+    </DataPropertyAssertion>
+    <ClassAssertion>
+        <Class IRI="#HabitacionPrivada"/>
+        <NamedIndividual IRI="#Hab_Privada_Urubo_1"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#compatibleCon"/>
+        <NamedIndividual IRI="#Hab_Privada_Urubo_1"/>
+        <NamedIndividual IRI="#ParejaEscapada"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Hab_Privada_Urubo_1"/>
+        <NamedIndividual IRI="#Wifi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Hab_Privada_Urubo_1"/>
+        <NamedIndividual IRI="#AireAcondicionado"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Hab_Privada_Urubo_1"/>
+        <NamedIndividual IRI="#Piscina"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tienePolitica"/>
+        <NamedIndividual IRI="#Hab_Privada_Urubo_1"/>
+        <NamedIndividual IRI="#PoliticaEscapada"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadaEn"/>
+        <NamedIndividual IRI="#Hab_Privada_Urubo_1"/>
+        <NamedIndividual IRI="#Zona_SCZ_URUBO"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#calificacionPromedio"/>
+        <NamedIndividual IRI="#Hab_Privada_Urubo_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#capacidadMaxima"/>
+        <NamedIndividual IRI="#Hab_Privada_Urubo_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#descripcionPropiedad"/>
+        <NamedIndividual IRI="#Hab_Privada_Urubo_1"/>
+        <Literal>Suite privada en Urubo con acceso a piscina, enfocada en comodidad para escapadas cortas.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dimensionesHabitacion"/>
+        <NamedIndividual IRI="#Hab_Privada_Urubo_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">22.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombrePropiedad"/>
+        <NamedIndividual IRI="#Hab_Privada_Urubo_1"/>
+        <Literal>Suite privada en Urubo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroBanos"/>
+        <NamedIndividual IRI="#Hab_Privada_Urubo_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroDormitorios"/>
+        <NamedIndividual IRI="#Hab_Privada_Urubo_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroHabitacion"/>
+        <NamedIndividual IRI="#Hab_Privada_Urubo_1"/>
+        <Literal>U-11</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precioNoche"/>
+        <NamedIndividual IRI="#Hab_Privada_Urubo_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">45.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoAcceso"/>
+        <NamedIndividual IRI="#Hab_Privada_Urubo_1"/>
+        <Literal>LlaveTradicional</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoBano"/>
+        <NamedIndividual IRI="#Hab_Privada_Urubo_1"/>
+        <Literal>EnSuite</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoCama"/>
+        <NamedIndividual IRI="#Hab_Privada_Urubo_1"/>
+        <Literal>Queen</Literal>
+    </DataPropertyAssertion>
+    <ClassAssertion>
+        <Class IRI="#HabitacionPrivada"/>
+        <NamedIndividual IRI="#Hab_Privada_CentroSucre_1"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#compatibleCon"/>
+        <NamedIndividual IRI="#Hab_Privada_CentroSucre_1"/>
+        <NamedIndividual IRI="#GrupoEstudiantil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Hab_Privada_CentroSucre_1"/>
+        <NamedIndividual IRI="#Wifi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Hab_Privada_CentroSucre_1"/>
+        <NamedIndividual IRI="#Cocina"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tienePolitica"/>
+        <NamedIndividual IRI="#Hab_Privada_CentroSucre_1"/>
+        <NamedIndividual IRI="#PoliticaEstudiantil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadaEn"/>
+        <NamedIndividual IRI="#Hab_Privada_CentroSucre_1"/>
+        <NamedIndividual IRI="#Zona_SUCRE_CENTRO"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#calificacionPromedio"/>
+        <NamedIndividual IRI="#Hab_Privada_CentroSucre_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#capacidadMaxima"/>
+        <NamedIndividual IRI="#Hab_Privada_CentroSucre_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#descripcionPropiedad"/>
+        <NamedIndividual IRI="#Hab_Privada_CentroSucre_1"/>
+        <Literal>Habitacion privada economica en centro de Sucre, pensada para estudiantes o pasantes.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dimensionesHabitacion"/>
+        <NamedIndividual IRI="#Hab_Privada_CentroSucre_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">14.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombrePropiedad"/>
+        <NamedIndividual IRI="#Hab_Privada_CentroSucre_1"/>
+        <Literal>Habitacion privada para estudiante en Sucre</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroBanos"/>
+        <NamedIndividual IRI="#Hab_Privada_CentroSucre_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroDormitorios"/>
+        <NamedIndividual IRI="#Hab_Privada_CentroSucre_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroHabitacion"/>
+        <NamedIndividual IRI="#Hab_Privada_CentroSucre_1"/>
+        <Literal>SC-8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precioNoche"/>
+        <NamedIndividual IRI="#Hab_Privada_CentroSucre_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">20.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoAcceso"/>
+        <NamedIndividual IRI="#Hab_Privada_CentroSucre_1"/>
+        <Literal>LlaveTradicional</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoBano"/>
+        <NamedIndividual IRI="#Hab_Privada_CentroSucre_1"/>
+        <Literal>EnSuite</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoCama"/>
+        <NamedIndividual IRI="#Hab_Privada_CentroSucre_1"/>
+        <Literal>Individual</Literal>
+    </DataPropertyAssertion>
+    <ClassAssertion>
+        <Class IRI="#HabitacionPrivada"/>
+        <NamedIndividual IRI="#Hab_Privada_SanRoque_1"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#compatibleCon"/>
+        <NamedIndividual IRI="#Hab_Privada_SanRoque_1"/>
+        <NamedIndividual IRI="#ParejaEscapada"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Hab_Privada_SanRoque_1"/>
+        <NamedIndividual IRI="#Wifi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Hab_Privada_SanRoque_1"/>
+        <NamedIndividual IRI="#Parking"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tienePolitica"/>
+        <NamedIndividual IRI="#Hab_Privada_SanRoque_1"/>
+        <NamedIndividual IRI="#PoliticaFlexible"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadaEn"/>
+        <NamedIndividual IRI="#Hab_Privada_SanRoque_1"/>
+        <NamedIndividual IRI="#Zona_TARIJA_SANROQUE"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#calificacionPromedio"/>
+        <NamedIndividual IRI="#Hab_Privada_SanRoque_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#capacidadMaxima"/>
+        <NamedIndividual IRI="#Hab_Privada_SanRoque_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#descripcionPropiedad"/>
+        <NamedIndividual IRI="#Hab_Privada_SanRoque_1"/>
+        <Literal>Habitacion privada en San Roque, comoda para parejas que buscan moverse facilmente por Tarija.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dimensionesHabitacion"/>
+        <NamedIndividual IRI="#Hab_Privada_SanRoque_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">17.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombrePropiedad"/>
+        <NamedIndividual IRI="#Hab_Privada_SanRoque_1"/>
+        <Literal>Habitacion privada en San Roque</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroBanos"/>
+        <NamedIndividual IRI="#Hab_Privada_SanRoque_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroDormitorios"/>
+        <NamedIndividual IRI="#Hab_Privada_SanRoque_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroHabitacion"/>
+        <NamedIndividual IRI="#Hab_Privada_SanRoque_1"/>
+        <Literal>SR-3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precioNoche"/>
+        <NamedIndividual IRI="#Hab_Privada_SanRoque_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">26.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoAcceso"/>
+        <NamedIndividual IRI="#Hab_Privada_SanRoque_1"/>
+        <Literal>LlaveTradicional</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoBano"/>
+        <NamedIndividual IRI="#Hab_Privada_SanRoque_1"/>
+        <Literal>EnSuite</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoCama"/>
+        <NamedIndividual IRI="#Hab_Privada_SanRoque_1"/>
+        <Literal>Doble</Literal>
+    </DataPropertyAssertion>
+    <ClassAssertion>
+        <Class IRI="#Villa"/>
+        <NamedIndividual IRI="#Villa_Achumani_1"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#compatibleCon"/>
+        <NamedIndividual IRI="#Villa_Achumani_1"/>
+        <NamedIndividual IRI="#Ejecutivo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Villa_Achumani_1"/>
+        <NamedIndividual IRI="#Wifi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Villa_Achumani_1"/>
+        <NamedIndividual IRI="#Cocina"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Villa_Achumani_1"/>
+        <NamedIndividual IRI="#ParkingGratis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tienePolitica"/>
+        <NamedIndividual IRI="#Villa_Achumani_1"/>
+        <NamedIndividual IRI="#PoliticaCorporativa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadaEn"/>
+        <NamedIndividual IRI="#Villa_Achumani_1"/>
+        <NamedIndividual IRI="#Zona_LP_ACHUMANI"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areaTotal"/>
+        <NamedIndividual IRI="#Villa_Achumani_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">380.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#calificacionPromedio"/>
+        <NamedIndividual IRI="#Villa_Achumani_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#capacidadEventos"/>
+        <NamedIndividual IRI="#Villa_Achumani_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#capacidadMaxima"/>
+        <NamedIndividual IRI="#Villa_Achumani_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#descripcionPropiedad"/>
+        <NamedIndividual IRI="#Villa_Achumani_1"/>
+        <Literal>Residencia amplia con vistas en Achumani, apta para retiros corporativos pequenos y reuniones privadas.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombrePropiedad"/>
+        <NamedIndividual IRI="#Villa_Achumani_1"/>
+        <Literal>Residencia con vistas en Achumani</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroBanos"/>
+        <NamedIndividual IRI="#Villa_Achumani_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroDormitorios"/>
+        <NamedIndividual IRI="#Villa_Achumani_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precioNoche"/>
+        <NamedIndividual IRI="#Villa_Achumani_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">260.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoAcceso"/>
+        <NamedIndividual IRI="#Villa_Achumani_1"/>
+        <Literal>CodigoNumerico</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoEspacioExterior"/>
+        <NamedIndividual IRI="#Villa_Achumani_1"/>
+        <Literal>Terraza</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoEstacionamiento"/>
+        <NamedIndividual IRI="#Villa_Achumani_1"/>
+        <Literal>GarajeMultiple</Literal>
+    </DataPropertyAssertion>
+    <ClassAssertion>
+        <Class IRI="#Villa"/>
+        <NamedIndividual IRI="#Villa_Tiquipaya_1"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#compatibleCon"/>
+        <NamedIndividual IRI="#Villa_Tiquipaya_1"/>
+        <NamedIndividual IRI="#Familiar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Villa_Tiquipaya_1"/>
+        <NamedIndividual IRI="#Piscina"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Villa_Tiquipaya_1"/>
+        <NamedIndividual IRI="#Cocina"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Villa_Tiquipaya_1"/>
+        <NamedIndividual IRI="#ParkingGratis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Villa_Tiquipaya_1"/>
+        <NamedIndividual IRI="#Lavanderia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tienePolitica"/>
+        <NamedIndividual IRI="#Villa_Tiquipaya_1"/>
+        <NamedIndividual IRI="#PoliticaPetFriendly"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadaEn"/>
+        <NamedIndividual IRI="#Villa_Tiquipaya_1"/>
+        <NamedIndividual IRI="#Zona_CBBA_TIQUIPAYA"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areaTotal"/>
+        <NamedIndividual IRI="#Villa_Tiquipaya_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">520.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#calificacionPromedio"/>
+        <NamedIndividual IRI="#Villa_Tiquipaya_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#capacidadEventos"/>
+        <NamedIndividual IRI="#Villa_Tiquipaya_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">60</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#capacidadMaxima"/>
+        <NamedIndividual IRI="#Villa_Tiquipaya_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">16</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#descripcionPropiedad"/>
+        <NamedIndividual IRI="#Villa_Tiquipaya_1"/>
+        <Literal>Quinta amplia en Tiquipaya con jardin y piscina, adecuada para reuniones familiares grandes.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombrePropiedad"/>
+        <NamedIndividual IRI="#Villa_Tiquipaya_1"/>
+        <Literal>Quinta con jardin en Tiquipaya</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroBanos"/>
+        <NamedIndividual IRI="#Villa_Tiquipaya_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroDormitorios"/>
+        <NamedIndividual IRI="#Villa_Tiquipaya_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precioNoche"/>
+        <NamedIndividual IRI="#Villa_Tiquipaya_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">320.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoAcceso"/>
+        <NamedIndividual IRI="#Villa_Tiquipaya_1"/>
+        <Literal>CodigoNumerico</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoEspacioExterior"/>
+        <NamedIndividual IRI="#Villa_Tiquipaya_1"/>
+        <Literal>Jardin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoEstacionamiento"/>
+        <NamedIndividual IRI="#Villa_Tiquipaya_1"/>
+        <Literal>GarajeMultiple</Literal>
+    </DataPropertyAssertion>
+    <ClassAssertion>
+        <Class IRI="#Villa"/>
+        <NamedIndividual IRI="#Villa_Urubo_1"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#compatibleCon"/>
+        <NamedIndividual IRI="#Villa_Urubo_1"/>
+        <NamedIndividual IRI="#AmigosCongreso"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Villa_Urubo_1"/>
+        <NamedIndividual IRI="#Piscina"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Villa_Urubo_1"/>
+        <NamedIndividual IRI="#Wifi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Villa_Urubo_1"/>
+        <NamedIndividual IRI="#AireAcondicionado"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tienePolitica"/>
+        <NamedIndividual IRI="#Villa_Urubo_1"/>
+        <NamedIndividual IRI="#PoliticaEventos"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadaEn"/>
+        <NamedIndividual IRI="#Villa_Urubo_1"/>
+        <NamedIndividual IRI="#Zona_SCZ_URUBO"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areaTotal"/>
+        <NamedIndividual IRI="#Villa_Urubo_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">480.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#calificacionPromedio"/>
+        <NamedIndividual IRI="#Villa_Urubo_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#capacidadEventos"/>
+        <NamedIndividual IRI="#Villa_Urubo_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">70</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#capacidadMaxima"/>
+        <NamedIndividual IRI="#Villa_Urubo_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">18</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#descripcionPropiedad"/>
+        <NamedIndividual IRI="#Villa_Urubo_1"/>
+        <Literal>Villa premium en Urubo, ideal para grupos que buscan privacidad y una piscina amplia.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombrePropiedad"/>
+        <NamedIndividual IRI="#Villa_Urubo_1"/>
+        <Literal>Villa premium en Urubo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroBanos"/>
+        <NamedIndividual IRI="#Villa_Urubo_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroDormitorios"/>
+        <NamedIndividual IRI="#Villa_Urubo_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precioNoche"/>
+        <NamedIndividual IRI="#Villa_Urubo_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">420.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoAcceso"/>
+        <NamedIndividual IRI="#Villa_Urubo_1"/>
+        <Literal>CodigoNumerico</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoEspacioExterior"/>
+        <NamedIndividual IRI="#Villa_Urubo_1"/>
+        <Literal>Patio</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoEstacionamiento"/>
+        <NamedIndividual IRI="#Villa_Urubo_1"/>
+        <Literal>GarajeMultiple</Literal>
+    </DataPropertyAssertion>
+    <ClassAssertion>
+        <Class IRI="#Villa"/>
+        <NamedIndividual IRI="#Villa_CentroSucre_1"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#compatibleCon"/>
+        <NamedIndividual IRI="#Villa_CentroSucre_1"/>
+        <NamedIndividual IRI="#AmigosCongreso"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Villa_CentroSucre_1"/>
+        <NamedIndividual IRI="#Cocina"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Villa_CentroSucre_1"/>
+        <NamedIndividual IRI="#Wifi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Villa_CentroSucre_1"/>
+        <NamedIndividual IRI="#ParkingGratis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tienePolitica"/>
+        <NamedIndividual IRI="#Villa_CentroSucre_1"/>
+        <NamedIndividual IRI="#PoliticaEventos"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadaEn"/>
+        <NamedIndividual IRI="#Villa_CentroSucre_1"/>
+        <NamedIndividual IRI="#Zona_SUCRE_CENTRO"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areaTotal"/>
+        <NamedIndividual IRI="#Villa_CentroSucre_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">360.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#calificacionPromedio"/>
+        <NamedIndividual IRI="#Villa_CentroSucre_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#capacidadEventos"/>
+        <NamedIndividual IRI="#Villa_CentroSucre_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#capacidadMaxima"/>
+        <NamedIndividual IRI="#Villa_CentroSucre_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#descripcionPropiedad"/>
+        <NamedIndividual IRI="#Villa_CentroSucre_1"/>
+        <Literal>Casona privada para eventos pequenos en Sucre, con patio interior y varios dormitorios.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombrePropiedad"/>
+        <NamedIndividual IRI="#Villa_CentroSucre_1"/>
+        <Literal>Casona privada para eventos en Sucre</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroBanos"/>
+        <NamedIndividual IRI="#Villa_CentroSucre_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroDormitorios"/>
+        <NamedIndividual IRI="#Villa_CentroSucre_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precioNoche"/>
+        <NamedIndividual IRI="#Villa_CentroSucre_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">240.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoAcceso"/>
+        <NamedIndividual IRI="#Villa_CentroSucre_1"/>
+        <Literal>CodigoNumerico</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoEspacioExterior"/>
+        <NamedIndividual IRI="#Villa_CentroSucre_1"/>
+        <Literal>Patio</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoEstacionamiento"/>
+        <NamedIndividual IRI="#Villa_CentroSucre_1"/>
+        <Literal>GarajePrivado</Literal>
+    </DataPropertyAssertion>
+    <ClassAssertion>
+        <Class IRI="#Villa"/>
+        <NamedIndividual IRI="#Villa_SanRoque_1"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#compatibleCon"/>
+        <NamedIndividual IRI="#Villa_SanRoque_1"/>
+        <NamedIndividual IRI="#FamiliaReubicacion"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Villa_SanRoque_1"/>
+        <NamedIndividual IRI="#Piscina"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Villa_SanRoque_1"/>
+        <NamedIndividual IRI="#Wifi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneAmenidad"/>
+        <NamedIndividual IRI="#Villa_SanRoque_1"/>
+        <NamedIndividual IRI="#ParkingGratis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tienePolitica"/>
+        <NamedIndividual IRI="#Villa_SanRoque_1"/>
+        <NamedIndividual IRI="#PoliticaResidencial"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadaEn"/>
+        <NamedIndividual IRI="#Villa_SanRoque_1"/>
+        <NamedIndividual IRI="#Zona_TARIJA_SANROQUE"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#areaTotal"/>
+        <NamedIndividual IRI="#Villa_SanRoque_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">430.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#calificacionPromedio"/>
+        <NamedIndividual IRI="#Villa_SanRoque_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#capacidadEventos"/>
+        <NamedIndividual IRI="#Villa_SanRoque_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#capacidadMaxima"/>
+        <NamedIndividual IRI="#Villa_SanRoque_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">14</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#descripcionPropiedad"/>
+        <NamedIndividual IRI="#Villa_SanRoque_1"/>
+        <Literal>Casaquinta en San Roque con piscina y parqueo multiple, adecuada para familias grandes o eventos privados.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombrePropiedad"/>
+        <NamedIndividual IRI="#Villa_SanRoque_1"/>
+        <Literal>Casaquinta en San Roque</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroBanos"/>
+        <NamedIndividual IRI="#Villa_SanRoque_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroDormitorios"/>
+        <NamedIndividual IRI="#Villa_SanRoque_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precioNoche"/>
+        <NamedIndividual IRI="#Villa_SanRoque_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">290.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoAcceso"/>
+        <NamedIndividual IRI="#Villa_SanRoque_1"/>
+        <Literal>CodigoNumerico</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoEspacioExterior"/>
+        <NamedIndividual IRI="#Villa_SanRoque_1"/>
+        <Literal>Jardin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tipoEstacionamiento"/>
+        <NamedIndividual IRI="#Villa_SanRoque_1"/>
+        <Literal>GarajeMultiple</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tienePuntoInteres"/>
+        <NamedIndividual IRI="#Zona_LP_ACHUMANI"/>
+        <NamedIndividual IRI="#EstacionIrpavi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tienePuntoInteres"/>
+        <NamedIndividual IRI="#Zona_CBBA_TIQUIPAYA"/>
+        <NamedIndividual IRI="#UnivalleTiquipaya"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tienePuntoInteres"/>
+        <NamedIndividual IRI="#Zona_SCZ_URUBO"/>
+        <NamedIndividual IRI="#BiocentroGuembe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tienePuntoInteres"/>
+        <NamedIndividual IRI="#Zona_SUCRE_CENTRO"/>
+        <NamedIndividual IRI="#Plaza25Mayo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tienePuntoInteres"/>
+        <NamedIndividual IRI="#Zona_TARIJA_SANROQUE"/>
+        <NamedIndividual IRI="#MercadoCampesinoTarija"/>
+    </ObjectPropertyAssertion>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#compatibleCon"/>
         <Class IRI="#Propiedad"/>

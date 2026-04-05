@@ -1,6 +1,11 @@
 prop,nombre,puntoNombre
-Apto_Centro_1,Apartamento Ejecutivo La Paz,Universidad del Centro
-Hab_Compartida_3,Cama en Hostal 3,Universidad del Centro
-Casa_Urbana_2,Casa Acogedora 2,Universidad del Centro
-Hab_Privada_3,Habitacion Confort 3,Universidad del Centro
-Villa_Lujo_3,Villa Espectacular 3,Universidad del Centro
+Hab_Compartida_3,Cama en casa compartida de Sopocachi,Universidad Mayor de San Andres
+Hab_Compartida_Tiquipaya_1,Cama en casa compartida de Tiquipaya,Campus Univalle Tiquipaya
+Casa_Tiquipaya_1,Casa de descanso en Tiquipaya,Campus Univalle Tiquipaya
+Casa_Urbana_2,Casa ejecutiva en Sopocachi Alto,Universidad Mayor de San Andres
+Apto_Centro_1,Departamento ejecutivo en Sopocachi,Universidad Mayor de San Andres
+Apto_Tiquipaya_1,Departamento familiar en Tiquipaya,Campus Univalle Tiquipaya
+Hab_Privada_Tiquipaya_1,Habitacion privada con jardin en Tiquipaya,Campus Univalle Tiquipaya
+Villa_Tiquipaya_1,Quinta con jardin en Tiquipaya,Campus Univalle Tiquipaya
+Villa_Lujo_3,Residencia premium en La Paz,Universidad Mayor de San Andres
+Hab_Privada_3,Suite privada en Sopocachi,Universidad Mayor de San Andres

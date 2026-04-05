@@ -1,6 +1,11 @@
 prop,nombre,puntoNombre
-Apto_Centro_5,Apartamento Moderno 5,Terminal Central
-Hab_Compartida_1,Cama en Habitación Compartida Mochileros,Terminal Central
-Casa_Urbana_5,Casa Acogedora 5,Terminal Central
-Hab_Privada_5,Habitacion Confort 5,Terminal Central
-Villa_Lujo_5,Villa Espectacular 5,Terminal Central
+Hab_Compartida_1,Cama en hostel del centro de Tarija,Terminal de Buses de Tarija
+Hab_Compartida_Achumani_1,Cama en residencia de Achumani,Estacion Irpavi del Teleferico
+Casa_Achumani_1,Casa amplia con jardin en Achumani,Estacion Irpavi del Teleferico
+Casa_Urbana_5,Casa comoda en San Bernardo,Terminal de Buses de Tarija
+Villa_Lujo_5,Casaquinta de alta capacidad en Tarija,Terminal de Buses de Tarija
+Apto_Achumani_1,Departamento con vista en Achumani,Estacion Irpavi del Teleferico
+Apto_Centro_5,Departamento familiar en San Bernardo,Terminal de Buses de Tarija
+Hab_Privada_5,Habitacion matrimonial en San Bernardo,Terminal de Buses de Tarija
+Hab_Privada_Achumani_1,Habitacion privada en Achumani,Estacion Irpavi del Teleferico
+Villa_Achumani_1,Residencia con vistas en Achumani,Estacion Irpavi del Teleferico

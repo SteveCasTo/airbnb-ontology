@@ -1,15 +1,35 @@
 prop,nombre,ciudad,densidad
-Apto_Centro_4,Apartamento Moderno 4,Chuquisaca,Baja
-Hab_Compartida_5,Cama en Hostal 5,Chuquisaca,Baja
-Casa_Urbana_4,Casa Acogedora 4,Chuquisaca,Baja
-Hab_Privada_1,Habitación Privada Romántica,Chuquisaca,Baja
-Apto_Centro_1,Apartamento Ejecutivo La Paz,La Paz,Rural
-Hab_Compartida_3,Cama en Hostal 3,La Paz,Rural
-Casa_Urbana_2,Casa Acogedora 2,La Paz,Rural
-Hab_Privada_3,Habitacion Confort 3,La Paz,Rural
-Villa_Lujo_3,Villa Espectacular 3,La Paz,Rural
-Apto_Centro_5,Apartamento Moderno 5,Tarija,Media
-Hab_Compartida_1,Cama en Habitación Compartida Mochileros,Tarija,Media
-Casa_Urbana_5,Casa Acogedora 5,Tarija,Media
-Hab_Privada_5,Habitacion Confort 5,Tarija,Media
-Villa_Lujo_5,Villa Espectacular 5,Tarija,Media
+Hab_Compartida_Tiquipaya_1,Cama en casa compartida de Tiquipaya,Cochabamba,Baja
+Hab_Compartida_2,Cama en residencia compartida de Cala Cala,Cochabamba,Media
+Casa_Tiquipaya_1,Casa de descanso en Tiquipaya,Cochabamba,Baja
+Casa_Urbana_1,Casa familiar con patio en Cala Cala,Cochabamba,Media
+Apto_Tiquipaya_1,Departamento familiar en Tiquipaya,Cochabamba,Baja
+Hab_Privada_2,Habitacion privada cerca de Cala Cala,Cochabamba,Media
+Hab_Privada_Tiquipaya_1,Habitacion privada con jardin en Tiquipaya,Cochabamba,Baja
+Apto_Centro_2,Monoambiente en Cala Cala,Cochabamba,Media
+Villa_Tiquipaya_1,Quinta con jardin en Tiquipaya,Cochabamba,Baja
+Villa_Lujo_2,Quinta familiar en Cochabamba,Cochabamba,Media
+Hab_Compartida_Achumani_1,Cama en residencia de Achumani,La Paz,Media
+Casa_Achumani_1,Casa amplia con jardin en Achumani,La Paz,Media
+Apto_Achumani_1,Departamento con vista en Achumani,La Paz,Media
+Hab_Privada_Achumani_1,Habitacion privada en Achumani,La Paz,Media
+Villa_Achumani_1,Residencia con vistas en Achumani,La Paz,Media
+Hab_Compartida_Urubo_1,Cama en residencia de Urubo,Santa Cruz de la Sierra,Media
+Casa_Urubo_1,Casa moderna en Urubo,Santa Cruz de la Sierra,Media
+Apto_Urubo_1,Loft con piscina en Urubo,Santa Cruz de la Sierra,Media
+Hab_Privada_Urubo_1,Suite privada en Urubo,Santa Cruz de la Sierra,Media
+Villa_Urubo_1,Villa premium en Urubo,Santa Cruz de la Sierra,Media
+Hab_Compartida_5,Cama en casona estudiantil de La Recoleta,Sucre,Media
+Casa_Urbana_4,Casa patrimonial remodelada en Sucre,Sucre,Media
+Apto_Centro_4,Departamento colonial en La Recoleta,Sucre,Media
+Hab_Privada_1,Habitacion privada con patio en La Recoleta,Sucre,Media
+Hab_Compartida_1,Cama en hostel del centro de Tarija,Tarija,Media
+Hab_Compartida_SanRoque_1,Cama en residencial de San Roque,Tarija,Media
+Casa_Urbana_5,Casa comoda en San Bernardo,Tarija,Media
+Casa_SanRoque_1,Casa tarijena con galeria en San Roque,Tarija,Media
+Villa_Lujo_5,Casaquinta de alta capacidad en Tarija,Tarija,Media
+Villa_SanRoque_1,Casaquinta en San Roque,Tarija,Media
+Apto_Centro_5,Departamento familiar en San Bernardo,Tarija,Media
+Apto_SanRoque_1,Departamento funcional en San Roque,Tarija,Media
+Hab_Privada_5,Habitacion matrimonial en San Bernardo,Tarija,Media
+Hab_Privada_SanRoque_1,Habitacion privada en San Roque,Tarija,Media

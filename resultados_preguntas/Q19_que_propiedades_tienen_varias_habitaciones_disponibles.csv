@@ -1,14 +1,26 @@
 prop,nombre,dormitorios
-Villa_Lujo_5,Villa Espectacular 5,8
-Villa_Lujo_3,Villa Espectacular 3,7
-Villa_Lujo_1,Villa Paraiso Santa Cruz,6
-Villa_Lujo_2,Villa Espectacular 2,5
-Casa_Urbana_3,Casa Acogedora 3,4
-Villa_Lujo_4,Villa Espectacular 4,4
-Casa_Urbana_2,Casa Acogedora 2,3
-Casa_Urbana_4,Casa Acogedora 4,3
-Casa_Urbana_1,Hermosa Casa en Cochabamba,3
-Apto_Centro_2,Apartamento Moderno 2,2
-Apto_Centro_3,Apartamento Moderno 3,2
-Apto_Centro_5,Apartamento Moderno 5,2
-Casa_Urbana_5,Casa Acogedora 5,2
+Villa_Lujo_5,Casaquinta de alta capacidad en Tarija,8
+Villa_Lujo_3,Residencia premium en La Paz,7
+Villa_SanRoque_1,Casaquinta en San Roque,6
+Villa_Lujo_1,Casaquinta para eventos en Santa Cruz,6
+Villa_Tiquipaya_1,Quinta con jardin en Tiquipaya,6
+Villa_Urubo_1,Villa premium en Urubo,6
+Villa_CentroSucre_1,Casona privada para eventos en Sucre,5
+Villa_Lujo_2,Quinta familiar en Cochabamba,5
+Casa_Achumani_1,Casa amplia con jardin en Achumani,4
+Casa_Urbana_3,Casa con piscina en zona norte de Santa Cruz,4
+Casa_Tiquipaya_1,Casa de descanso en Tiquipaya,4
+Villa_Achumani_1,Residencia con vistas en Achumani,4
+Villa_Lujo_4,Villa moderna con piscina en Santa Cruz,4
+Casa_Urbana_2,Casa ejecutiva en Sopocachi Alto,3
+Casa_Urbana_1,Casa familiar con patio en Cala Cala,3
+Casa_Urubo_1,Casa moderna en Urubo,3
+Casa_Urbana_4,Casa patrimonial remodelada en Sucre,3
+Casa_SanRoque_1,Casa tarijena con galeria en San Roque,3
+Casa_CentroSucre_1,Casona patrimonial en centro de Sucre,3
+Casa_Urbana_5,Casa comoda en San Bernardo,2
+Apto_Centro_3,Departamento con piscina en Equipetrol,2
+Apto_Centro_5,Departamento familiar en San Bernardo,2
+Apto_Tiquipaya_1,Departamento familiar en Tiquipaya,2
+Apto_SanRoque_1,Departamento funcional en San Roque,2
+Apto_Centro_2,Monoambiente en Cala Cala,2
